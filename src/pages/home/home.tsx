@@ -1,5 +1,12 @@
+import MainHeader from "./mainHeader/mainHeader";
+
 function Home() {
-    return <h2>THIS IS THE HOME LANDING PAGE!</h2>;
+    return (
+      <main>
+        <MainHeader/>
+      </main>
+      
+    );
   }
   
   export default Home;
