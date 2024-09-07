@@ -4,7 +4,7 @@ import "./mainHeader.scss"
 
 function MainHeader() {
     return (
-    <section>
+    <section className="main-header-content">
         <Row g-0>
             <Col>
                 <aside>
