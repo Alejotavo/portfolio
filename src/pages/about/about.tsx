@@ -1,5 +1,9 @@
 function About() {
-  return <h2>About Page</h2>;
+  return (
+    <main className="d-flex align-items-center justify-content-center">
+      About here
+    </main>
+    
+  );
 }
-
 export default About;
