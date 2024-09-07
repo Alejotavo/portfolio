@@ -4,11 +4,15 @@
   max-width: 1400px;
   margin: 0 auto;
   padding: 0;
-  text-align: center;
   font-family: 'Outfit', sans-serif;
 }
 
 .no-margins {
   padding-left: 0 !important;
   padding-right: 0 !important;
+}
+
+:root h1{
+  font-size: 64px;
+  font-weight: 600;
 }
