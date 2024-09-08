@@ -16,3 +16,12 @@
   font-size: 64px;
   font-weight: 600;
 }
+
+/* Primary BTN */
+
+:root .btn-portfolio-primary{
+  border-radius: 50px;
+  background-color: #33BBE5;
+  border: none;
+}
+

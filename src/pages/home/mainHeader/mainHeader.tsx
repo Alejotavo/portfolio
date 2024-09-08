@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Button, Col, Row } from "react-bootstrap";
 import profile from '../../../assets/profile_pic.png'; // Importa la imagen
 import "./mainHeader.scss"
 
@@ -8,13 +8,17 @@ function MainHeader() {
         <Row g-0>
             <Col>
                 <aside data-aos="fade-right">
-                    <h1>Welcome to my <b>Portfolio</b></h1>
-                    <h3>ALEJO GUSTAVO FRANCOMANO</h3>
-                    <p>At any rate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet, quod doloribus the framework of the essence represents a bond between the flexible production planning</p>
+                    <h1 className="mb-5">Welcome to my <b>Portfolio</b></h1>
+                    <label className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</label>
+                    <label className="ui-ux mt-1 mb-3">UI-UX & FRONT END DEVELOPER</label>
+                    <p>
+                        I specialize in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
+                    </p>
+                    <Button className="btn btn-portfolio-primary ps-3 pe-3 pt-2 pb-2">SERVICESS</Button>
                 </aside>
             </Col>
             <Col>
-                <div  className="col d-flex justify-content-center">
+                <div  className="col d-flex justify-content-center" data-aos="fade-up">
                 <img src={profile} alt="Profile" />
                 </div>
             </Col>
