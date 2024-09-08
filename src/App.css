@@ -19,9 +19,13 @@
 
 /* Primary BTN */
 
-:root .btn-portfolio-primary{
+:root  .btn-portfolio-primary{
   border-radius: 50px;
   background-color: #33BBE5;
   border: none;
+
+  &:hover{
+    background-color: #008BB7;
+  }
 }
 
