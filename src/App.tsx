@@ -17,7 +17,7 @@ AOS.init({
 
 function App() {
   return (
-    <Container fluid className="no-margins">
+    <Container fluid className="px-0">
         <NavBar/>
         <Router>
           <Routes>
