@@ -2,7 +2,7 @@
     width: 1400px;
 
     aside{
-        padding: 200px 0px 0px 200px;
+        padding: 200px 0px;
 
         h1{
             font-weight: 600;
@@ -37,7 +37,7 @@
 
     /* custom-styles.css */
 .custom-padding {
-    padding-left: 200px; /* Padding para dispositivos de escritorio */
+    padding-left: 150px; /* Padding para dispositivos de escritorio */
   }
   
   @media (max-width: 767.98px) {
