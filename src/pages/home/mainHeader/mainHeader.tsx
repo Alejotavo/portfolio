@@ -4,7 +4,7 @@ import "./mainHeader.scss"
 
 function MainHeader() {
     return (
-    <section className="main-header-content">
+    <section  className="main-header-content">
         <Row  className="m-0">
             <Col className="col-12 col-md-6">
                 <aside data-aos="fade-right" className="custom-padding ">
@@ -14,7 +14,7 @@ function MainHeader() {
                     <p>
                         I specialize in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
                     </p>
-                    <Button className="btn btn-portfolio-primary ps-3 pe-3 pt-2 pb-2">SERVICESS</Button>
+                    <Button  href="#section1" className="btn btn-portfolio-primary ps-3 pe-3 pt-2 pb-2">SERVICESS</Button>
                 </aside>
             </Col>
             <Col className="col-12 col-md-6">

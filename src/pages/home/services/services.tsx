@@ -3,7 +3,7 @@ import "./services.scss"
 
 function Services() {
     return (
-        <Container fluid className="custom-container">
+        <Container id="section1" fluid className="custom-container">
             <Row className="custom-row">
                <Col xs={12}>
                 <label>MY SERVICES</label>
