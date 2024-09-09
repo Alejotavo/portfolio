@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1, 
+        "title": "Web Development", 
+        "description": "Desarrollo front end en react"
+    },
+    {
+        "id": 2, 
+        "title": "Web UI Design", 
+        "description": "Diseno de mockups y branding"
+    },
+    {
+        "id": 3, 
+        "title": "UX", 
+        "description": "prototipado y armado de wireframes"
+    }
+]

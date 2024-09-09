@@ -1,8 +1,20 @@
+import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./services.scss"
 import Card from "./card/card";
 
+import data from './../../../data/services.json'
+import {Activitie} from '../../../models/activitie'
+
+
 function Services() {
+
+   const [activitie, setActivitie] = useState<Activitie[]>([])
+
+   useEffect( () => {
+    setActivitie(data);
+   }, []);
+
     return (
         <Container id="section1" fluid className="custom-container ">
             <Row className="custom-row">
@@ -13,15 +25,7 @@ function Services() {
                </Col>
                 <Col  xs={12}>
                     <Row className="custom-row">
-                        <Col data-aos="fade-up"  data-aos-delay="100" xs={12} md={4} >
-                            <Card/>
-                        </Col>
-                        <Col data-aos="fade-up"  data-aos-delay="300" xs={12} md={4}>
-                            <Card/>
-                        </Col>
-                        <Col data-aos="fade-up"  data-aos-delay="500" xs={12} md={4}>
-                            <Card/>
-                        </Col>
+                        <Card activitie= {activitie}/>
                     </Row>
                 </Col>
             </Row>
