@@ -1,13 +1,22 @@
-.wrapper-services{
-    width: 100%;
-    background-color: blue;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-.services{
-    text-align: center;
-    background-color: red;
-    max-width: 1400px;
 
-}
+
+.custom-container {
+    background-color: #efefef;
+    display: flex;
+    justify-content: center;
+    padding-left: 0; 
+    padding-right: 0; 
+  }
+
+.custom-row {
+    max-width: 1400px;
+    background-color: #efefef;
+  }
+
+
+  @media (max-width: 767.98px) {
+    .custom-row {
+      width: 100%;
+      background-color: #efefef;
+    }
+  }

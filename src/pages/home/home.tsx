@@ -9,7 +9,7 @@ function Home() {
         <section className="d-flex  justify-content-center">
           <MainHeader/>
         </section>
-        <section className="d-flex justify-content-center">
+        <section>
               <Services/>
           </section>
       </Container>
