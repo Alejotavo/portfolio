@@ -4,8 +4,8 @@
     background-color: #efefef;
     display: flex;
     justify-content: center;
-    padding-left: 0; 
-    padding-right: 0; 
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
 .custom-row {
@@ -14,9 +14,34 @@
   }
 
 
-  @media (max-width: 767.98px) {
-    .custom-row {
-      width: 100%;
-      background-color: #efefef;
+    /* Tamaño de fuente por defecto (escritorio) */
+  .skyblue-subtitle{
+      font-weight: 700;
+      font-size: 20px;
+      color: #33BBE5;
+  }
+  
+  /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+  @media (max-width: 767px) {
+    
+  .skyblue-subtitle {
+      font-size: 14px;
     }
   }
+
+
+  /* Tamaño de fuente por defecto (escritorio) */
+  .grey-subtitle{
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #404742;
+}
+
+/* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+  .grey-subtitle {
+    font-size: 35px;
+  }
+}
+
