@@ -13,13 +13,13 @@ function Services() {
                </Col>
                 <Col  xs={12}>
                     <Row className="custom-row">
-                        <Col xs={12} md={4}>
+                        <Col data-aos="fade-up"  data-aos-delay="100" xs={12} md={4} >
                             <Card/>
                         </Col>
-                        <Col xs={12} md={4}>
+                        <Col data-aos="fade-up"  data-aos-delay="300" xs={12} md={4}>
                             <Card/>
                         </Col>
-                        <Col xs={12} md={4}>
+                        <Col data-aos="fade-up"  data-aos-delay="500" xs={12} md={4}>
                             <Card/>
                         </Col>
                     </Row>
