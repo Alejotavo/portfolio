@@ -6,7 +6,7 @@ function Services() {
     return (
         <Container id="section1" fluid className="custom-container ">
             <Row className="custom-row">
-               <Col xs={12}>
+               <Col xs={12} className="row ms-0">
                 <label className="skyblue-subtitle">MY SERVICES</label>
                 <h3 className="grey-subtitle">What I Do?</h3>
                 <p>At any rate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet, quod doloribus the framework of the essence represents a bond between the flexible production planning</p>

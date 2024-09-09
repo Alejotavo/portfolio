@@ -11,10 +11,33 @@
             color: #232323;
         }
 
+        /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+        @media (max-width: 767px) {
+            .card-title {
+            font-size: 20px;
+            }
+        }
+  
         p{
             color: #676767;
             font-size: 16px;
             line-height: 30px;
         }
     }
+}
+
+
+  /* Tamaño de fuente por defecto (escritorio) */
+  .grey-subtitle{
+    font-weight: 700;
+    font-size: 48px;
+
+    color: #404742;
+}
+
+/* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+@media (max-width: 767px) {
+  .grey-subtitle {
+    font-size: 35px;
+  }
 }
