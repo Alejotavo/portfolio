@@ -1,0 +1,37 @@
+.skills-custom-container {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color:#fff;
+
+    .skills-custom-row{
+        max-width: 1400px;
+        background-color: none;
+    }
+  }
+
+    /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+    @media (max-width: 767px) {
+    
+        .skyblue-subtitle {
+            font-size: 14px;
+          }
+        }
+      
+      
+        /* Tamaño de fuente por defecto (escritorio) */
+        .white-subtitle{
+          font-weight: 700;
+          font-size: 48px;
+      
+          color: #ffffff;
+      }
+      
+      /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+      @media (max-width: 767px) {
+        .white-subtitle {
+          font-size: 35px;
+        }
+      }

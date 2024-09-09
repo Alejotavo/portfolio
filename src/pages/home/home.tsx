@@ -1,6 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import MainHeader from "./mainHeader/mainHeader";
 import Services from "./services/services";
+import Skills from "../skills/skills";
 
 function Home() {
     return (
@@ -10,8 +11,11 @@ function Home() {
           <MainHeader/>
         </section>
         <section>
-              <Services/>
-          </section>
+          <Services/>
+        </section>
+        <section>
+          <Skills/>
+        </section>
       </Container>
     );
   }
