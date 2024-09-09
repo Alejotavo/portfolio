@@ -1,16 +1,19 @@
 [
     {
         "id": 1, 
+        "icon": "bi-house-door", 
         "title": "Web Development", 
         "description": "Desarrollo front end en react"
     },
     {
         "id": 2, 
+        "icon": "bi-paint-bucket", 
         "title": "Web UI Design", 
         "description": "Diseno de mockups y branding"
     },
     {
         "id": 3, 
+        "icon": "bi-search", 
         "title": "UX", 
         "description": "prototipado y armado de wireframes"
     }
