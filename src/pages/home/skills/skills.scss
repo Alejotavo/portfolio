@@ -1,39 +1,39 @@
 .skills-custom-container {
-    background-color: #252525;
+    background-color: #fff;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    color:#fff;
 
     .skills-custom-row{
       max-width: 1320px;
       position: relative;
       margin: auto;
 
-        .white-subtitle{
+        .grey-subtitle{
           font-weight: 700;
-          font-size: 48px;
-          color: #ebebeb;
+          font-size: 40px;
       }
 
       p{
-        color: #c1c1c1;
+        color: #3A3A3A;
       }
 
 
         .form-label {
             position: absolute;
             margin-bottom: .5rem;
+            color:#000
         }
 
         .progress-label{
           display: flex;
           flex-direction: row;
           justify-content: flex-end;
+          color:#000
         }
 
         .progress{
           height: 0.4rem;
-          background-color: #393939;
+          background-color: #ddd;
         .progress-bar{
           background-color: #e533bd;
         }

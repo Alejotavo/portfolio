@@ -23,7 +23,7 @@ function Skills() {
                     <Row>
                         <Col className='col-12'>
                         <label className="skyblue-subtitle">MY SKILLS</label>
-                        <h3 className="white-subtitle">Some of my Knowledge</h3>
+                        <h3 className="grey-subtitle">Some of my Knowledge</h3>
                         <p className="mb-4 mb-lg-5"> My skill set encompasses a range of technologies and methodologies, ensuring I can tackle diverse project requirements with efficiency and creativity.</p>
                         </Col>
                         <Col className='col-12'>

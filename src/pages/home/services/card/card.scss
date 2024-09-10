@@ -31,15 +31,6 @@
     }
 }
 
-
-  /* Tamaño de fuente por defecto (escritorio) */
-  .grey-subtitle{
-    font-weight: 700;
-    font-size: 48px;
-
-    color: #404742;
-}
-
 /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
 @media (max-width: 767px) {
   .grey-subtitle {
