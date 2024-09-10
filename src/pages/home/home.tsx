@@ -1,7 +1,7 @@
 import Container from "react-bootstrap/esm/Container";
 import MainHeader from "./mainHeader/mainHeader";
 import Services from "./services/services";
-import Skills from "../skills/skills";
+import Skills from "./skills/skills";
 
 function Home() {
     return (

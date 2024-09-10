@@ -11,8 +11,12 @@ const Card = ({ activitie }: ChildComponentProps) => {
 
     <>
         {
-            activitie.map((acts ) => (
-                <Col key={acts.id} data-aos="fade-up"  data-aos-delay="100" xs={12} md={4}>
+            activitie.map((acts, index ) => (
+                <Col key={acts.id} xs={12} md={4}
+                    data-aos="fade-up"
+                    data-aos-delay={index * 100}
+                    data-aos-duration="000"
+                >
                   <div className="card-layout mt-1 mb-1">
                     <div className="card-body">
                     <i className={`bi ${acts.icon} fs-1 color-icon`}></i>

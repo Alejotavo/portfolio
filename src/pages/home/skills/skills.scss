@@ -1,0 +1,60 @@
+.skills-custom-container {
+    background-color: #252525;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color:#fff;
+
+    .skills-custom-row{
+      max-width: 1320px;
+      position: relative;
+      margin: auto;
+
+        .white-subtitle{
+          font-weight: 700;
+          font-size: 48px;
+          color: #ebebeb;
+      }
+
+      p{
+        color: #c1c1c1;
+      }
+
+      .progress-container{
+        padding-left: 6rem;
+        padding-right: 6rem;
+      }
+      @media (max-width: 767px) {
+      
+        .progress-container {
+          padding-top: 1rem;
+          padding-left: 2rem;
+          padding-right: 2rem;;
+          }
+        }
+        .progress{
+          height: 0.4rem;
+          background-color: #393939;
+        .progress-bar{
+          background-color: #e533bd;
+        }
+      }
+    }
+  }
+
+
+    /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+    @media (max-width: 767px) {
+    
+        .skyblue-subtitle {
+            font-size: 14px;
+          }
+        }
+      
+      /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
+      @media (max-width: 767px) {
+        .white-subtitle {
+          font-size: 35px;
+        }
+      }
+
+   
