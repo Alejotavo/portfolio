@@ -24,7 +24,7 @@ function Skills() {
                 <h3 className="white-subtitle">Some of my Knowledge</h3>
                 <p className="mb-4 mb-lg-5"> My skill set encompasses a range of technologies and methodologies, ensuring I can tackle diverse project requirements with efficiency and creativity.</p>
                </Col>
-               <Col>
+               <Col  className='progress-container'>
                   <Progress skill= {skill}/>
                </Col>
         </Row>

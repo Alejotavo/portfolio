@@ -2,15 +2,43 @@
     background-color: #252525;
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
     color:#fff;
 
     .skills-custom-row{
         max-width: 1400px;
         background-color: none;
     }
+
+    .progress-container{
+      padding-left: 6rem;
+      padding-right: 6rem;
+    }
+    @media (max-width: 767px) {
+    
+      .progress-container {
+        padding-top: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;;
+        }
+      }
+      .progress{
+        height: 0.7rem;
+      .progress-bar{
+        background-color: #e533bd;
+      }
+    }
   }
+
+  @media (max-width: 767px) {
+    
+    .skills-custom-container {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+      }
+    }
+  
 
     /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
     @media (max-width: 767px) {
@@ -35,3 +63,5 @@
           font-size: 35px;
         }
       }
+
+   
