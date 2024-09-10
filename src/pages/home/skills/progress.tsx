@@ -19,7 +19,11 @@ const Progress = ({ skill }: ChildComponentProps) => {
                     data-aos-duration="1000"
                 >
                     <label className="form-label">{x.title}</label>
-                    <ProgressBar now={x.value} label={`${x.value}%`} visuallyHidden />
+                    <div>
+                        <span className="progress-label">{`${x.value}%`}</span>
+                        <ProgressBar now={x.value} />
+                    </div>
+
                 </div>
             ))}
         </div>

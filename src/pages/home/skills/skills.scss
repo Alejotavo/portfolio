@@ -19,18 +19,18 @@
         color: #c1c1c1;
       }
 
-      .progress-container{
-        padding-left: 6rem;
-        padding-right: 6rem;
-      }
-      @media (max-width: 767px) {
-      
-        .progress-container {
-          padding-top: 1rem;
-          padding-left: 2rem;
-          padding-right: 2rem;;
-          }
+
+        .form-label {
+            position: absolute;
+            margin-bottom: .5rem;
         }
+
+        .progress-label{
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+        }
+
         .progress{
           height: 0.4rem;
           background-color: #393939;
