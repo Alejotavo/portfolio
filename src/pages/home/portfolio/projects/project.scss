@@ -1,0 +1,12 @@
+.project-card-body{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    img{
+        max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+        max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+        object-fit: cover;
+    }
+}
+
