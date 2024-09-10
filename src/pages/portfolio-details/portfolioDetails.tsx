@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Project } from './../../models/project'; // Asegúrate de que la ruta sea correcta
 import { Col, Row } from 'react-bootstrap';
 import projectsData from '../../data/projects.json';
-
+import './portfolioDetails.scss'
 
 const PortfolioDetails: React.FC = () => {
     const { id } = useParams<{ id: string }>(); // Obtener el parámetro 'id' de la URL
@@ -25,13 +25,12 @@ const PortfolioDetails: React.FC = () => {
                 <Col className="col-12 col-md-9">
                     <div>
                         <img src={`/${project.img}`} alt={project.title} />
-                        <h1>{project.title}</h1>
-                        <p>{project.description}</p>
                     </div>
                 </Col>
                 <Col className="col-12 col-md-3">
                     <aside>
-                        Aca va la info
+                        <h1>{project.title}</h1>
+                        <p>{project.description}</p>
                     </aside>
                 </Col>
             </Row>
