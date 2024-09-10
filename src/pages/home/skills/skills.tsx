@@ -18,7 +18,7 @@ function Skills() {
     }, []);
 
     return (
-    <Container id="section2" fluid className="skills-custom-container">
+    <Container id="section3" fluid className="skills-custom-container">
        <Row  className="skills-custom-row">
                <Col className="ms-0 col-12 col-md-6">
                     <Row>

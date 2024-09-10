@@ -1,6 +1,7 @@
 import "./App.css";
 import Container from "react-bootstrap/Container";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollBtn from "./components/scrollBtn/scrollBtn"
 
 
 import About from "./pages/about/about";
@@ -18,6 +19,7 @@ AOS.init({
 function App() {
   return (
     <Container fluid className="px-0">
+      <ScrollBtn/>
         <NavBar/>
         <Router>
           <Routes>
