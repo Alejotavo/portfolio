@@ -33,7 +33,7 @@ function Skills() {
                     </Row>
                </Col>
                <Col>
-               <img src={skills} alt="Profile" className="img-fluid"  />
+               <img src={skills} alt="Profile" className="img-fluid"  data-aos="fade-left" data-aos-delay={100}/>
                </Col>
         </Row>
     </Container>

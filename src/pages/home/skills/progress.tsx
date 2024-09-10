@@ -49,7 +49,7 @@ const Progress = ({ skill }: ChildComponentProps) => {
                     className="col-12 mb-3"
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
-                    data-aos-duration="1000"
+                    data-aos-duration="500"
                 >
                     <label className="form-label">{x.title}</label>
                     <div>
