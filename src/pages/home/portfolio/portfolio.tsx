@@ -7,6 +7,7 @@ import data from './../../../data/projects.json'
 import ProjectCard from "./projects/projectCard";
 
 
+
 function Portfolio() {
 
     const [project, setProject] = useState<Project[]>([])
