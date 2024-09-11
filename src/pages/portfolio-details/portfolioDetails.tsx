@@ -21,15 +21,19 @@ const PortfolioDetails: React.FC = () => {
 
     return (
         <section className="main-portfolio-details-content">
-            <Row className='m-0'>
-                <Col className="col-12 col-md-9">
-                    <div className='image-gallery'>
-                        <img src={`/${project.img}`} alt={project.title} />
+            <Row className='m-0 mt-5 image-gallery'>
+                <Col className="col-12 col-md-8">
+                    <div>
+                        <Row className=' mb-4'>
+                            <Col>
+                                <img src={`/${project.img}`} alt={project.title} />                        
+                            </Col>
+                        </Row>
                         <Row>
                             {
                                 project.thumbs.map((thumb, id) => (
-                                    <Col>
-                                        <img key={id}  style={{ width: '100px' }}  src={`/${thumb}`} />
+                                    <Col  className="col-12 col-md-4 mb-2 mb-md-0">
+                                        <img key={id}  src={`/${thumb}`} />
                                     </Col>
                                 ))
                             }
