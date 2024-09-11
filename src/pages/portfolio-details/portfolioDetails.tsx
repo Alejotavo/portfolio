@@ -59,7 +59,14 @@ const PortfolioDetails: React.FC = () => {
     return (
         <section className="main-portfolio-details-content">
             <Row className='m-0 mt-5 image-gallery'>
-                <Col className="col-12 col-md-8">
+            <Col className="col-12 col-md-3 order-1 order-md-2">
+                    <aside>
+                        <h1>{project.title}</h1>
+                        <p>{project.description}</p>
+                        <Link to={'/portfolio'}>See all</Link>
+                    </aside>
+                </Col>
+                <Col  className="col-12 col-md-8 order-2 order-md-1">
                     <div>
                         <Row className=' mb-4'>
                             <Col>
@@ -79,13 +86,6 @@ const PortfolioDetails: React.FC = () => {
                             ))}
                         </Row>
                     </div>
-                </Col>
-                <Col className="col-12 col-md-3">
-                    <aside>
-                        <h1>{project.title}</h1>
-                        <p>{project.description}</p>
-                        <Link  to={'/portfolio'}>See all</Link>
-                    </aside>
                 </Col>
             </Row>
 
