@@ -20,18 +20,20 @@ const PortfolioDetails: React.FC = () => {
     }
 
     return (
-        <section className="wrapper">
+        <section className="main-portfolio-details-content">
             <Row className='m-0'>
                 <Col className="col-12 col-md-9">
-                    <div>
+                    <div className='image-gallery'>
                         <img src={`/${project.img}`} alt={project.title} />
-                    </div>
-                    <div>
-                        {
-                            project.thumbs.map((thumb, id) => (
-                                <img key={id}  style={{ width: '100px' }}  src={`/${thumb}`} />
-                            ))
-                        }
+                        <Row>
+                            {
+                                project.thumbs.map((thumb, id) => (
+                                    <Col>
+                                        <img key={id}  style={{ width: '100px' }}  src={`/${thumb}`} />
+                                    </Col>
+                                ))
+                            }
+                        </Row>
                     </div>
                 </Col>
                 <Col className="col-12 col-md-3">
