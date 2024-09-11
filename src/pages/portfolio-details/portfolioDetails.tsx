@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { Project } from './../../models/project'; // Ensure the path is correct
 import { Col, Row } from 'react-bootstrap';
@@ -84,6 +84,7 @@ const PortfolioDetails: React.FC = () => {
                     <aside>
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
+                        <Link  to={'/portfolio'}>See all</Link>
                     </aside>
                 </Col>
             </Row>
