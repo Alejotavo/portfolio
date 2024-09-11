@@ -26,6 +26,13 @@ const PortfolioDetails: React.FC = () => {
                     <div>
                         <img src={`/${project.img}`} alt={project.title} />
                     </div>
+                    <div>
+                        {
+                            project.thumbs.map((thumb) => (
+                                <img  style={{ width: '100px' }}  src={`/${thumb}`} />
+                            ))
+                        }
+                    </div>
                 </Col>
                 <Col className="col-12 col-md-3">
                     <aside>
@@ -39,3 +46,5 @@ const PortfolioDetails: React.FC = () => {
 }
 
 export default PortfolioDetails;
+
+

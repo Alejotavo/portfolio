@@ -2,36 +2,66 @@
     {
         "id": 1, 
         "img": "images/1.png",
+        "thumbs": [
+            "images/2.png",
+            "images/3.png",
+            "images/4.png"
+        ],
         "title": "Binagora",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
     },
     {
         "id": 2, 
         "img": "images/2.png",
+        "thumbs": [
+            "images/1.png",
+            "images/1.png",
+            "images/1.png"
+                ],
         "title": "Huddle Group",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
     },
     {
         "id": 3, 
         "img": "images/3.png",
+        "thumbs": [
+            "images/1.png",
+            "images/1.png",
+            "images/1.png"
+        ],
         "title": "Best Day",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed."
     },
     {
         "id": 4, 
         "img": "images/4.png",
+        "thumbs": [
+            "images/1.png",
+            "images/1.png",
+            "images/1.png"
+        ],
         "title": "Hixc Solution",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
     },
     {
         "id": 5, 
         "img": "images/5.png",
+        "thumbs": [
+            "images/1.png",
+            "images/1.png",
+            "images/1.png"
+        ],
         "title": "Kodacon",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
     },
     {
         "id": 6, 
         "img": "images/6.png",
+        "thumbs": [
+            "images/1.png",
+            "images/1.png",
+            "images/1.png"
+        ],
         "title": "Binagora",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
     }

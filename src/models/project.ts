@@ -1,6 +1,9 @@
+
+
 export interface Project {
     id: number;
     img: string;
+    thumbs: string[];
     title: string; // Agrega otras propiedades según sea necesario
     description: string;
   }
