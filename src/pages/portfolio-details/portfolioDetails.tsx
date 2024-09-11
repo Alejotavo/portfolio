@@ -1,22 +1,59 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { Project } from './../../models/project'; // Asegúrate de que la ruta sea correcta
+import { Project } from './../../models/project'; // Ensure the path is correct
 import { Col, Row } from 'react-bootstrap';
 import projectsData from '../../data/projects.json';
-import './portfolioDetails.scss'
+import './portfolioDetails.scss';
 
 const PortfolioDetails: React.FC = () => {
-    const { id } = useParams<{ id: string }>(); // Obtener el parámetro 'id' de la URL
+    const { id } = useParams<{ id: string }>(); // Get the 'id' parameter from the URL
     const [project, setProject] = useState<Project | null>(null);
+    const [selectedImage, setSelectedImage] = useState<string | null>(null); // State for the selected image
+    const [currentImageIndex, setCurrentImageIndex] = useState<number>(0); // Index of the currently displayed image
+    const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768); // Determine if it's mobile
 
     useEffect(() => {
-        // Filtrar los datos importados para encontrar el proyecto con el ID dado
+        // Filter the imported data to find the project with the given ID
         const foundProject = projectsData.find((p: Project) => p.id === Number(id));
         setProject(foundProject || null);
     }, [id]);
 
+    useEffect(() => {
+        // Update isMobile when window resizes
+        const handleResize = () => setIsMobile(window.innerWidth <= 768);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
+
+    const openImage = (src: string, index: number) => {
+        if (!isMobile) {
+            setSelectedImage(src);
+            setCurrentImageIndex(index);
+        }
+    };
+
+    const closeImage = () => {
+        setSelectedImage(null);
+    };
+
+    const nextImage = () => {
+        if (project && project.thumbs.length > 0) {
+            const nextIndex = (currentImageIndex + 1) % project.thumbs.length;
+            setSelectedImage(`/${project.thumbs[nextIndex]}`);
+            setCurrentImageIndex(nextIndex);
+        }
+    };
+
+    const prevImage = () => {
+        if (project && project.thumbs.length > 0) {
+            const prevIndex = (currentImageIndex - 1 + project.thumbs.length) % project.thumbs.length;
+            setSelectedImage(`/${project.thumbs[prevIndex]}`);
+            setCurrentImageIndex(prevIndex);
+        }
+    };
+
     if (!project) {
-        return <p>Proyecto no encontrado</p>;
+        return <p>Project not finded</p>;
     }
 
     return (
@@ -26,17 +63,20 @@ const PortfolioDetails: React.FC = () => {
                     <div>
                         <Row className=' mb-4'>
                             <Col>
-                                <img src={`/${project.img}`} alt={project.title} />                        
+                                <img src={`/${project.img}`} alt={project.title} />
                             </Col>
                         </Row>
                         <Row>
-                            {
-                                project.thumbs.map((thumb, id) => (
-                                    <Col  className="col-12 col-md-4 mb-2 mb-md-0">
-                                        <img key={id}  src={`/${thumb}`} />
-                                    </Col>
-                                ))
-                            }
+                            {project.thumbs.map((thumb, index) => (
+                                <Col key={index} className="col-12 col-md-4 mb-2 mb-md-0">
+                                    <img
+                                        src={`/${thumb}`}
+                                        alt={`Thumbnail ${index}`}
+                                        className="thumbnail"
+                                        onClick={() => openImage(`/${thumb}`, index)}
+                                    />
+                                </Col>
+                            ))}
                         </Row>
                     </div>
                 </Col>
@@ -47,10 +87,19 @@ const PortfolioDetails: React.FC = () => {
                     </aside>
                 </Col>
             </Row>
+
+            {/* Full-screen lightbox modal */}
+            {selectedImage && !isMobile && (
+                <div className="lightbox" onClick={closeImage}>
+                    <div className="lightbox-content">
+                        <button className="arrow left-arrow" onClick={(e) => { e.stopPropagation(); prevImage(); }}>←</button>
+                        <img src={selectedImage} alt="Full Screen" className="full-screen-image" />
+                        <button className="arrow right-arrow" onClick={(e) => { e.stopPropagation(); nextImage(); }}>→</button>
+                    </div>
+                </div>
+            )}
         </section>
     );
 }
 
 export default PortfolioDetails;
-
-

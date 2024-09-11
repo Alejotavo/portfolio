@@ -1,13 +1,60 @@
-.main-portfolio-details-content{
+.main-portfolio-details-content {
     max-width: 1320px;
     margin: auto;
-
-    .image-gallery{
+    .image-gallery {
         display: flex;
         justify-content: space-between;
-
         img{
             width: 100%;
         }
+        display: flex;
+        .thumbnail {
+            width: 100%;
+            cursor: pointer;
+            transition: transform 0.3s, border-color 0.3s;
+            border: 2px solid #ddd;
+            border-radius: 4px;
+
+            &:hover {
+                transform: scale(1.05);
+                border-color: #333;
+            }
+        }
+
+        .full-screen-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+    }
+
+    .lightbox {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.8);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .full-screen-image {
+            max-width: 90%;
+            max-height: 90%;
+            object-fit: contain;
+        }
+    }
+}
+
+/* Add styles for mobile devices */
+@media (max-width: 768px) { // Adjust the breakpoint as needed
+    .thumbnail {
+        cursor: default; // Change cursor to default to indicate no action
+    }
+
+    .lightbox {
+        display: none; // Ensure lightbox is not visible on mobile devices
     }
 }
