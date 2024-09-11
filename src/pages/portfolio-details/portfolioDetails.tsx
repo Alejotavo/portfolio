@@ -28,8 +28,8 @@ const PortfolioDetails: React.FC = () => {
                     </div>
                     <div>
                         {
-                            project.thumbs.map((thumb) => (
-                                <img  style={{ width: '100px' }}  src={`/${thumb}`} />
+                            project.thumbs.map((thumb, id) => (
+                                <img key={id}  style={{ width: '100px' }}  src={`/${thumb}`} />
                             ))
                         }
                     </div>

@@ -5,7 +5,6 @@ import { Col } from 'react-bootstrap';
 
 const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
     const navigate = useNavigate();
-
     // Define the function to handle clicks
     const handleClick = (id: number) => {
         navigate(`/portfolioDetails/${id}`);
