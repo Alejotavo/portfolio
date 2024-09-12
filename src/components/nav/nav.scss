@@ -6,11 +6,15 @@
     transition: background-color 0.3s ease; // Transición suave para el color de fondo
     background-color: none;
 
+    .nav-link:last-child {
+        color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
+        }
+
     &.scrolled {
         background-color: rgba(0, 0, 0, 0.5); // Cambia este color al que desees cuando se haga scroll
         color: rgb(255, 255, 255); // Cambia el color del texto según el fondo
 
-    .nav-link {
+        .nav-link {
         color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
         }
 

@@ -28,11 +28,25 @@
   border-radius: 50px;
   background-color: #33BBE5;
   border: none;
+  margin: 5px;
 
   &:hover{
     background-color: #008BB7;
   }
 }
+
+:root .btn-portfolio-secondary{
+  border-radius: 50px;
+  background-color: #e533d6;
+  border: none;
+  margin: 5px;
+
+  &:hover{
+    background-color: #aa2b9f;
+  }
+
+}
+
 
 @media (max-width: 768px) {
 

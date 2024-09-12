@@ -52,11 +52,12 @@ function NavBar() {
                 />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/home" onClick={handleLinkClick}>Home</Nav.Link>
-                        <Nav.Link href="#section2" onClick={handleLinkClick}>Service</Nav.Link>
-                        <Nav.Link href="#section3" onClick={handleLinkClick}>Skills</Nav.Link>
-                        <Nav.Link href="/portfolio" onClick={handleLinkClick}>Portfolio</Nav.Link>
-                        <Nav.Link href="/about" onClick={handleLinkClick}>About Me</Nav.Link>
+                        <Nav.Link href="/home" className="d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
+                        <Nav.Link href="#section2" className="d-flex align-items-center" onClick={handleLinkClick}>Service</Nav.Link>
+                        <Nav.Link href="#section3" className="d-flex align-items-center" onClick={handleLinkClick}>Skills</Nav.Link>
+                        <Nav.Link href="/portfolio" className="d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
+                        <Nav.Link href="/about" className="d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
+                        <Nav.Link href=""  className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
