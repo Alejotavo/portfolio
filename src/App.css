@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;600;700&display=swap');
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
+.main-wrapper{
+  margin-top: 90px;
+}
+
 #root {
   width: 100%;
   margin: 0 auto;

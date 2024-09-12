@@ -20,7 +20,7 @@ AOS.init({
 
 function App() {
   return (
-    <Container fluid className="px-0">
+    <Container fluid className="px-0 main-wrapper">
       <ScrollBtn/>
         <NavBar/>
         <Router>
