@@ -3,11 +3,22 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./nav.scss"
 import Logo from "../logo/logo";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 
 
 function NavBar() {
+
+  const [expanded, setExpanded] = useState(false);
+
+  const handleLinkClick = () => {
+      if (window.innerWidth < 992) { // Bootstrap's default breakpoint for "lg"
+          setExpanded(false);
+      }
+  };
+
+
+
     useEffect(() => {
         const handleScroll = () => {
             const nav = document.querySelector('.nav');
@@ -37,21 +48,21 @@ function NavBar() {
 
     return (
     
-    <Navbar expand="lg" className="fixed-top nav">
-        <Container className="nav-container">
-          <Navbar.Brand href="#home"><Logo/></Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link href="/home">Home</Nav.Link>
-              <Nav.Link href="#section2">Service</Nav.Link>
-              <Nav.Link href="#section3">Skills</Nav.Link>
-              <Nav.Link href="/portfolio">Portfolio</Nav.Link>
-              <Nav.Link href="/about">About Me</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+        <Navbar expand="lg" className="fixed-top nav" expanded={expanded}>
+            <Container className="nav-container">
+                <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(true)} />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="ms-auto">
+                        <Nav.Link href="/home" onClick={handleLinkClick}>Home</Nav.Link>
+                        <Nav.Link href="#section2" onClick={handleLinkClick}>Service</Nav.Link>
+                        <Nav.Link href="#section3" onClick={handleLinkClick}>Skills</Nav.Link>
+                        <Nav.Link href="/portfolio" onClick={handleLinkClick}>Portfolio</Nav.Link>
+                        <Nav.Link href="/about" onClick={handleLinkClick}>About Me</Nav.Link>
+                    </Nav>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
    );
   }
   
