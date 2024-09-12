@@ -14,8 +14,8 @@ function About() {
             <Col className="col-12 col-md-6">
                 <aside data-aos="fade-right" className=" mt-md-5 pt-md-5 pe-md-5">
                     <h1 className="mb-5">Find out more about me</h1>
-                    <label className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</label>
-                    <label className="ui-ux mt-1 mb-3">UI-UX & FRONT END DEVELOPER</label>
+                    <div className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</div>
+                    <label className="ui-ux mt-1 mb-3 fw-bold">UI-UX & FRONT END DEVELOPER</label>
                     <p>
                     I am a Front-End Developer with a focus on UI/UX, passionate about creating intuitive and visually engaging digital experiences. My work sits at the crossroads of design and functionality, using technologies like React and frameworks such as Bootstrap to develop responsive and optimized interfaces. I enjoy collaborating with multidisciplinary teams to solve complex problems creatively, always keeping the user at the center of the development process.
 
