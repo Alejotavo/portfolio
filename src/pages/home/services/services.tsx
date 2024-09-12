@@ -17,7 +17,7 @@ function Services() {
 
     return (
         <Container id="section2" fluid className="custom-container">
-            <Row className="custom-row">
+            <Row className="custom-row mt-5">
                <Col xs={12} xl={6} className="row ms-0">
                 <label className="skyblue-subtitle">MY SERVICES</label>
                 <h3 className="white-subtitle">What I Do?</h3>
