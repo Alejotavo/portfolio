@@ -8,16 +8,14 @@ import { useEffect, useState } from "react";
 
 
 function NavBar() {
+    const [isExpanded, setIsExpanded] = useState(false);
 
-  const [expanded, setExpanded] = useState(false);
-
-  const handleLinkClick = () => {
-      if (window.innerWidth < 992) { // Bootstrap's default breakpoint for "lg"
-          setExpanded(false);
-      }
-  };
-
-
+    // Colapsar el Navbar cuando un enlace es clicado en móvil
+    const handleLinkClick = () => {
+        if (window.innerWidth < 992) {
+            setIsExpanded(false);
+        }
+    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -44,14 +42,14 @@ function NavBar() {
         };
     }, []);
 
-
-
     return (
-    
-        <Navbar expand="lg" className="fixed-top nav" expanded={expanded}>
+        <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
             <Container className="nav-container">
                 <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(true)} />
+                <Navbar.Toggle 
+                    aria-controls="basic-navbar-nav" 
+                    onClick={() => setIsExpanded(!isExpanded)} 
+                />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
                         <Nav.Link href="/home" onClick={handleLinkClick}>Home</Nav.Link>
@@ -63,8 +61,7 @@ function NavBar() {
                 </Navbar.Collapse>
             </Container>
         </Navbar>
-   );
-  }
-  
-  export default NavBar;
-  
+    );
+}
+
+export default NavBar;
