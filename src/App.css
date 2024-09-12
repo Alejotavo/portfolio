@@ -34,3 +34,10 @@
   }
 }
 
+@media (max-width: 768px) {
+
+  .main-wrapper{
+    margin-top: 0px;
+  }
+  
+}

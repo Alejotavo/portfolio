@@ -1,7 +1,7 @@
-import "./nav.scss"
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import "./nav.scss"
 import Logo from "../logo/logo";
 import { useEffect } from "react";
 
