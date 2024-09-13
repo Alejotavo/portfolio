@@ -14,7 +14,6 @@ function MainHeader() {
                     <p>
                         I specialize in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
                     </p>
-                    <Button href="#section2" className="btn btn-portfolio-primary ps-3 pe-3 pt-2 pb-2">SERVICES</Button>
                 </aside>
             </Col>
             <Col className="col-12 col-md-6">
