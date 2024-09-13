@@ -42,6 +42,24 @@ function NavBar() {
         };
     }, []);
 
+
+    useEffect(() => {
+        // Agregar la clase 'no-scroll' al body cuando el menú está abierto
+        if (showFullscreenMenu) {
+          document.body.classList.add('no-scroll');
+        } else {
+          document.body.classList.remove('no-scroll');
+        }
+    
+        // Limpiar la clase al desmontar el componente
+        return () => {
+          document.body.classList.remove('no-scroll');
+        };
+    }, [showFullscreenMenu]);
+
+
+
+
     return (
         <>
             <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
