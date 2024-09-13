@@ -29,6 +29,10 @@
     }
 }
 
+.fullscreen-menu{
+    display: none;
+}
+
 
 
 @media (max-width: 768px) {
@@ -65,5 +69,42 @@
     .nav .navbar-nav .nav-link.active {
         color: #ffffff;
     }
+
+
+    .fullscreen-menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        color: #fff;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        z-index: 1050; /* Asegúrate de que esté encima de otros elementos */
+        transition: opacity 0.3s ease;
+    }
+    
+    .fullscreen-menu.show {
+        display: flex;
+        opacity: 1;
+    }
+    
+    .fullscreen-content {
+        text-align: center;
+    }
+    
+    .close-button {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        background-color: #fff;
+        color: #000;
+    }
+    
     
 }
+
+
