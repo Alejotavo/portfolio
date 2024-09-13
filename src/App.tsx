@@ -1,6 +1,6 @@
 import "./App.css";
 import Container from "react-bootstrap/Container";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import ScrollBtn from "./components/scrollBtn/scrollBtn"
 
 import PortfolioDetails from "./pages/portfolio-details/portfolioDetails";
@@ -25,7 +25,7 @@ function App() {
         <NavBar/>
         <Router>
           <Routes>
-            <Route path="*" />
+            <Route path="/" element={<Navigate to="/home" />} />
             <Route path="/home" element={<Home />} />
             <Route path="/portfolio" element={<MainPortfolioPage />} />
             <Route path="/portfolioDetails/:id" element={<PortfolioDetails />} />
