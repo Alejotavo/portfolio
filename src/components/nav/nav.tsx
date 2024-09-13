@@ -71,14 +71,14 @@ function NavBar() {
                 <button className="close-button" onClick={() => setShowFullscreenMenu(false)}>Close</button>
                 <div className="fullscreen-content">
                     <h1>Menu</h1>
-                    <ul className="list-unstyled">
-                        <li><a href="/home" onClick={handleLinkClick}>Home</a></li>
-                        <li><a href="/h#section2"onClick={(e) => handleLinkClick(e, '#section2')}>Service</a></li>
-                        <li><a href="#section3" onClick={(e) => handleLinkClick(e, '#section3')}>Skills</a></li>
-                        <li><a href="/portfolio" onClick={handleLinkClick}>Portfolio</a></li>
-                        <li><a href="/about" onClick={handleLinkClick}>About Me</a></li>
-                        <li><a href="" className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</a></li>
-                    </ul>
+                    <Nav className="ms-auto">
+                            <Nav.Link href="/home" className="d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
+                            <Nav.Link href="" className="d-flex align-items-center" onClick={handleLinkClick}>Service</Nav.Link>
+                            <Nav.Link href="" className="d-flex align-items-center" onClick={handleLinkClick}>Skills</Nav.Link>
+                            <Nav.Link href="/portfolio" className="d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
+                            <Nav.Link href="/about" className="d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
+                            <Nav.Link href="" className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</Nav.Link>
+                        </Nav>
                 </div>
             </div>
         </>
