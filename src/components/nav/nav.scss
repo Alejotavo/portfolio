@@ -76,28 +76,46 @@
         color: #fff;
         display: none;
         justify-content: center;
-        align-items: center;
-        text-align: center;
         z-index: 1050; /* Asegúrate de que esté encima de otros elementos */
         transition: opacity 0.3s ease;
+
     }
     
     .fullscreen-menu.show {
+        justify-content: flex-start;
+        flex-direction: column;
         display: flex;
         opacity: 1;
     }
     
     .fullscreen-content {
-        text-align: center;
+       .list{
+        display: block;
+        margin-top: 60px;
+        padding: 1rem;
+
+            .btn-margin{
+                color: rgb(255, 255, 255);
+                padding: 1rem 0rem;
+                border-bottom: solid 1px #292929;
+            }
+       }
     }
-    
-    .close-button {
-        position: absolute;
-        top: 20px;
-        right: 20px;
-        background-color: #fff;
-        color: #000;
-    }  
+
+   .close-button-content{ 
+    top: 25px;
+    right: 10px;
+
+    position: absolute;
+        .close-button {
+            border: none;
+            background: none;
+            width: 40px;
+            height: 40px;
+            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath stroke='%23969696' stroke-width='1' stroke-linecap='round' stroke-linejoin='round' d='M6 18L18 6M6 6l12 12'/%3E%3C/svg%3E");
+            ;
+        }  
+    }
 }
 
 .custom-toggler-icon {
