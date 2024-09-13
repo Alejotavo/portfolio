@@ -51,6 +51,7 @@ function NavBar() {
                     <Navbar.Toggle 
                         aria-controls="basic-navbar-nav" 
                         onClick={() => setShowFullscreenMenu(!isExpanded)} 
+                        className="custom-toggler-icon"
                      />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
