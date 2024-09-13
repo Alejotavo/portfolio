@@ -63,6 +63,9 @@ const PortfolioDetails: React.FC = () => {
                     <aside>
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
+                        {project.technologies.map((technologie) => (
+                                <span className="badge rounded-pill bg-info text-dark m-1">{technologie}</span>
+                            ))}
                         <Link to={'/portfolio'}>See all</Link>
                     </aside>
                 </Col>

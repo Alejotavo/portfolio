@@ -6,6 +6,7 @@ export interface Project {
     thumbs: string[];
     title: string; // Agrega otras propiedades según sea necesario
     description: string;
+    technologies: string[];
   }
   
   export interface ChildComponentProps {

@@ -8,7 +8,8 @@
             "images/4.png"
         ],
         "title": "Binagora",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 2, 
@@ -19,7 +20,8 @@
             "images/1.png"
                 ],
         "title": "Huddle Group",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 3, 
@@ -30,7 +32,8 @@
             "images/1.png"
         ],
         "title": "Best Day",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed.",
+        "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 4, 
@@ -41,7 +44,8 @@
             "images/1.png"
         ],
         "title": "Hixc Solution",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 5, 
@@ -52,7 +56,8 @@
             "images/1.png"
         ],
         "title": "Kodacon",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 6, 
@@ -63,6 +68,7 @@
             "images/1.png"
         ],
         "title": "Binagora",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+        "technologies":["React", "Tailwind", "Figma"]
     }
 ]
