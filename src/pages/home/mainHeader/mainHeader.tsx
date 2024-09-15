@@ -1,4 +1,4 @@
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 import profile from '../../../assets/profile_pic.png'; // Importa la imagen
 import "./mainHeader.scss"
 
