@@ -11,6 +11,7 @@ import Home from "./pages/home/home";
 import 'aos/dist/aos.css'; // Importa los estilos de AOS
 import AOS from 'aos'; // Importa AOS
 import MainPortfolioPage from "./pages/mainPortfolio/mainPortfolio";
+import Contact from "./pages/contact/contact";
 
 
 // Inicializa AOS
@@ -30,6 +31,7 @@ function App() {
             <Route path="/portfolio" element={<MainPortfolioPage />} />
             <Route path="/portfolioDetails/:id" element={<PortfolioDetails />} />
             <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </Router>
     </Container>

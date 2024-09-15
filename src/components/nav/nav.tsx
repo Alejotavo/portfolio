@@ -76,7 +76,7 @@ function NavBar() {
                             <Nav.Link href="/home" className="d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
                             <Nav.Link href="/portfolio" className="d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
                             <Nav.Link href="/about" className="d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
-                            <Nav.Link href="" className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</Nav.Link>
+                            <Nav.Link href="/contact" className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -92,7 +92,7 @@ function NavBar() {
                             <Nav.Link href="/home" className=" btn-margin d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
                             <Nav.Link href="/portfolio" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
                             <Nav.Link href="/about" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
-                            <Nav.Link href="" className="btn-margin btn btn-portfolio-secondary mt-5" onClick={handleLinkClick}>Contact</Nav.Link>
+                            <Nav.Link href="/contact" className="btn-margin btn btn-portfolio-secondary mt-5" onClick={handleLinkClick}>Contact</Nav.Link>
                         </Nav>
                 </div>
             </div>
