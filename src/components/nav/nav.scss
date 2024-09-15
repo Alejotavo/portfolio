@@ -40,30 +40,18 @@
         transition: background-color ; // Transición suave para el color de fondo
         position: static !important; /* Anula fixed-top */
         top: auto !important; /* Anula top: 0 */
-        background-color: #000;
         color: #ffffff;
         transition: none;
 
         &.scrolled {
-            background-color: #000; // Cambia este color al que desees cuando se haga scroll
+            background-color: #ffffff; // Cambia este color al que desees cuando se haga scroll
             color: rgb(255, 255, 255); // Cambia el color del texto según el fondo
-    
-        .nav-link {
-            color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
-            }
-    
-            .navbar-nav .nav-link.active{
-                color: #ffffff;
-            }
         }
-    
-        .nav-link {
-            color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
-        }
-    }
 
-    .nav .navbar-nav .nav-link.active {
-        color: #ffffff;
+        .navbar-toggler {
+            border: none;
+        }
+
     }
 
     .fullscreen-menu {
@@ -116,19 +104,19 @@
             ;
         }  
     }
-}
 
-.custom-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23969696' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-    width: 40px;
-    height: 40px;
-
-    .navbar-toggler-icon{
-        display: none;
+    .custom-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23000' stroke-width='1' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+        width: 40px;
+        height: 40px;
+    
+        .navbar-toggler-icon{
+            display: none;
+        }
     }
+    
+    
+    .no-scroll {
+        overflow: hidden;
+      }
 }
-
-
-.no-scroll {
-    overflow: hidden;
-  }

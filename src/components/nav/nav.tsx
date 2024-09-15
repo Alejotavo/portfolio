@@ -74,8 +74,6 @@ function NavBar() {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Nav.Link href="/home" className="d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
-                            <Nav.Link href="#section2" className="d-flex align-items-center" onClick={handleLinkClick}>Service</Nav.Link>
-                            <Nav.Link href="#section3" className="d-flex align-items-center" onClick={handleLinkClick}>Skills</Nav.Link>
                             <Nav.Link href="/portfolio" className="d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
                             <Nav.Link href="/about" className="d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
                             <Nav.Link href="" className="btn btn-portfolio-secondary" onClick={handleLinkClick}>Contact</Nav.Link>
@@ -92,8 +90,6 @@ function NavBar() {
                 <div className="fullscreen-content">
                     <Nav className='list' >
                             <Nav.Link href="/home" className=" btn-margin d-flex align-items-center" onClick={handleLinkClick}>Home</Nav.Link>
-                            <Nav.Link href="" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>Service</Nav.Link>
-                            <Nav.Link href="" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>Skills</Nav.Link>
                             <Nav.Link href="/portfolio" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>Portfolio</Nav.Link>
                             <Nav.Link href="/about" className="btn-margin d-flex align-items-center" onClick={handleLinkClick}>About Me</Nav.Link>
                             <Nav.Link href="" className="btn-margin btn btn-portfolio-secondary mt-5" onClick={handleLinkClick}>Contact</Nav.Link>
