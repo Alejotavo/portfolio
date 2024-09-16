@@ -68,7 +68,7 @@ if (!validateEmail(formData.mail)) {
                     <div className="name mt-0 mb-0">If you have any questions, just fill the contact form or send me an email, and I will answer you shortly.</div>
                     <article className='article-content'>
                         <div className="ui-ux mt-1">alejogustavof@gmail.com</div>
-                        <label className="ui-ux mt-1 fw-medium">+54-9116174 7208</label>
+                        <label className="ui-ux mt-1">+54-9116174 7208</label>
                         <a href="https://www.linkedin.com/in/alejo-gustavo-francomano-1301942a/" target="_blank" ><i className="bi bi-linkedin"></i></a>
                     </article>
                 </aside>
