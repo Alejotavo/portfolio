@@ -7,9 +7,9 @@ const ContactForm = () => {
     comment: ''
   });
   const [isSent, setIsSent] = useState(false);
-  const [error, setError] = useState(null);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleChange = (e) => {
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
@@ -65,7 +65,7 @@ const ContactForm = () => {
             value={formData.comment}
             onChange={handleChange}
             className="form-control"
-            rows="5"
+            rows={5}
             required
           />
         </div>
