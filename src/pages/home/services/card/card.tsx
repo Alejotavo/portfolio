@@ -16,6 +16,7 @@ const Card = ({ activitie }: ChildComponentProps) => {
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                     data-aos-duration="000"
+                    className="card-content"
                 >
                   <div className="card-layout mt-1 mb-1">
                     <div className="card-body">

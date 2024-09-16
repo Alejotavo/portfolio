@@ -3,18 +3,18 @@
         "id": 1, 
         "icon": "bi-code-slash", 
         "title": "Web Development", 
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis tempor quam, et placerat nulla. Donec suscipit eros lectus. Donec suscipit eros lectus."
+        "description": "Focus on front-end development, building visually appealing and responsive websites that ensure smooth user interactions with the latest web technologies."
     },
     {
         "id": 2, 
         "icon": "bi-palette-fill", 
         "title": "UI Design", 
-        "description": "rutrum ultrices dui viverra sit amet. Nam eu leo sit amet tortor laoreet rutrum. Praesent lobortis convallis mi, ut suscipit erat viverra et. Morbi rutrum orci et tellus mattis."
+        "description": "Implement UI design by crafting intuitive and visually engaging interfaces for apps, concentrating on user needs and flow."
     },
     {
         "id": 3, 
         "icon": "bi-layout-text-window", 
         "title": "UX & Prototyping", 
-        "description": "rutrum ultrices dui viverra sit amet. Nam eu leo sit amet tortor laoreet rutrum. Praesent lobortis convallis mi, ut suscipit erat viverra et. Morbi rutrum orci et tellus mattis porttitor."
+        "description": "Expert in UX design and prototyping, creating user-centered experiences through comprehensive research and interactive mockups."
     }
 ]
