@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import './contact.scss'
+import { Col, Row } from 'react-bootstrap';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -58,50 +60,62 @@ if (!validateEmail(formData.mail)) {
 
 
   return (
-    <div className="contact-form">
-      <h2>Contact Us</h2>
-      {isSent && <p className="text-success">¡Mensaje enviado con éxito!</p>}
-      {error && <p className="text-danger">{error}</p>}
-      <form onSubmit={handleSubmit}>
-        <div className="form-group">
-          <label htmlFor="name">Name:</label>
-          <input
-            type="text"
-            id="name"
-            name="name"
-            value={formData.name}
-            onChange={handleChange}
-            className="form-control"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="name">Mail:</label>
-          <input
-            type="text"
-            id="mail"
-            name="mail"
-            value={formData.mail}
-            onChange={handleChange}
-            className="form-control"
-            required
-          />
-        </div>
-        <div className="form-group">
-          <label htmlFor="comment">Comment:</label>
-          <textarea
-            id="comment"
-            name="comment"
-            value={formData.comment}
-            onChange={handleChange}
-            className="form-control"
-            rows={5}
-            required
-          />
-        </div>
-        <button type="submit" className="btn btn-primary">Send</button>
-      </form>
-    </div>
+    <section className="main-form-content">
+        <Row className="contact-form">
+            <Col className='col-12 col-md-6'>
+                <h1>Let's talk</h1>
+                <div className="name mt-0 mb-0">If you have any questions, just fill the contact form or send me an email, and I will answer you shortly.</div>
+                <article className='article-content'>
+                    <div className="ui-ux mt-1">alejogustavof@gmail.com</div>
+                    <label className="ui-ux mt-1 fw-medium">+54-9116174 7208</label>
+                    <a href="https://www.linkedin.com/in/alejo-gustavo-francomano-1301942a/" target="_blank" ><i className="bi bi-linkedin"></i></a>
+                </article>
+            </Col>
+            <Col className='col-12 col-md-6'>
+                {isSent && <p className="text-success">¡Mensaje enviado con éxito!</p>}
+                {error && <p className="text-danger">{error}</p>}
+                    <form onSubmit={handleSubmit}>
+                        <div className="form-group">
+                        <label htmlFor="name">Name:</label>
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            value={formData.name}
+                            onChange={handleChange}
+                            className="form-control"
+                            required
+                        />
+                        </div>
+                        <div className="form-group">
+                        <label htmlFor="name">Mail:</label>
+                        <input
+                            type="text"
+                            id="mail"
+                            name="mail"
+                            value={formData.mail}
+                            onChange={handleChange}
+                            className="form-control"
+                            required
+                        />
+                        </div>
+                        <div className="form-group">
+                        <label htmlFor="comment">Comment:</label>
+                        <textarea
+                            id="comment"
+                            name="comment"
+                            value={formData.comment}
+                            onChange={handleChange}
+                            className="form-control"
+                            rows={5}
+                            required
+                        />
+                        </div>
+                        <button type="submit" className="btn btn-primary btn-portfolio-primary mt-3">Send</button>
+                    </form>
+            </Col>
+        </Row>
+    </section>
   );
 };
 
