@@ -16,7 +16,7 @@ const ContactForm = () => {
     });
   };
 
-  const handleSubmit =  (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>)  => {
     e.preventDefault();
 
     const templateParams = {
