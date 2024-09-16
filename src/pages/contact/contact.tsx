@@ -29,7 +29,7 @@ const ContactForm = () => {
     
 
 if (!validateEmail(formData.mail)) {
-    setError('Por favor, ingrese un correo electrónico válido.');
+    setError('Please enter a valid email address.');
     return;
 }
 
@@ -53,7 +53,7 @@ if (!validateEmail(formData.mail)) {
       })
       .catch((error) => {
         console.error('FAILED...', error);
-        setError('Error al enviar el mensaje, intenta de nuevo.');
+        setError('Error sending the message, please try again.');
       });
   };
 
@@ -76,7 +76,7 @@ if (!validateEmail(formData.mail)) {
             <Col className='col-12 col-md-6' data-aos="fade-up">
             {isSent ? (
                     <div className="alert alert-success" role="alert">
-                    A simple danger alert—check it out!
+                    Your message was sent successfully.
                   </div>
                     ) : error && (
                         <div className="alert alert-danger" role="alert">
