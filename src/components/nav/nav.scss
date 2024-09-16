@@ -103,9 +103,26 @@
         }  
     }
 
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
 
     
     .no-scroll {
         overflow: hidden;
       }
 }
+
+@keyframes rotateIcon {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(180deg);
+    }
+  }
+  
+  .rotate-360 {
+    animation: rotateIcon 0.5s linear; /* Cambia la duración y la repetición si es necesario */
+  }

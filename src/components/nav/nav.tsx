@@ -85,7 +85,7 @@ function NavBar() {
             {/* Menú de pantalla completa */}
             <div className={`fullscreen-menu ${showFullscreenMenu ? 'show' : ''}`}>
                 <div className='close-button-content'>
-                    <button className="bi bi-x-lg close-button" onClick={() => setShowFullscreenMenu(false)}></button>
+                    <button className="bi bi-x-lg close-button rotate-360" onClick={() => setShowFullscreenMenu(false)}></button>
                 </div>
                 <div className="fullscreen-content">
                     <Nav className='list' >
