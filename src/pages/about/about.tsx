@@ -12,7 +12,7 @@ function About() {
                 </div>
             </Col>
             <Col className="col-12 col-md-6">
-                <aside data-aos="fade-right" className=" mt-md-5 pt-md-5 pe-md-5 p-3">
+                <aside data-aos="fade-right" className=" mt-md-5 pt-md-5 pe-md-5 p-2">
                     <h1 className="mb-5">Find out more about me</h1>
                     <div className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</div>
                     <label className="ui-ux mt-1 mb-3 fw-bold">UI-UX & FRONT END DEVELOPER</label>
