@@ -17,13 +17,27 @@ const ContactForm = () => {
     });
   };
 
+  const validateEmail = (mail: string) => {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    return emailRegex.test(mail);
+  };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>)  => {
     e.preventDefault();
+    
+
+if (!validateEmail(formData.mail)) {
+    setError('Por favor, ingrese un correo electrónico válido.');
+    return;
+}
+
+
+
 
     const templateParams = {
         to_name: 'Alejo',           // Nombre fijo del destinatario
         from_name: formData.name,  // Nombre tomado del campo de formulario
-        from_email: 'no-reply@tu-dominio.com', 
+        from_email: formData.mail,
         message: formData.comment,   // Comentario tomado del campo de formulario
       };
 
@@ -40,6 +54,8 @@ const ContactForm = () => {
         setError('Error al enviar el mensaje, intenta de nuevo.');
       });
   };
+
+
 
   return (
     <div className="contact-form">
