@@ -63,15 +63,17 @@ if (!validateEmail(formData.mail)) {
     <section className="main-form-content">
         <Row className="contact-form">
             <Col className='col-12 col-md-6'>
-                <h1>Let's talk</h1>
-                <div className="name mt-0 mb-0">If you have any questions, just fill the contact form or send me an email, and I will answer you shortly.</div>
-                <article className='article-content'>
-                    <div className="ui-ux mt-1">alejogustavof@gmail.com</div>
-                    <label className="ui-ux mt-1 fw-medium">+54-9116174 7208</label>
-                    <a href="https://www.linkedin.com/in/alejo-gustavo-francomano-1301942a/" target="_blank" ><i className="bi bi-linkedin"></i></a>
-                </article>
+            <aside data-aos="fade-right">
+                    <h1>Let's talk</h1>
+                    <div className="name mt-0 mb-0">If you have any questions, just fill the contact form or send me an email, and I will answer you shortly.</div>
+                    <article className='article-content'>
+                        <div className="ui-ux mt-1">alejogustavof@gmail.com</div>
+                        <label className="ui-ux mt-1 fw-medium">+54-9116174 7208</label>
+                        <a href="https://www.linkedin.com/in/alejo-gustavo-francomano-1301942a/" target="_blank" ><i className="bi bi-linkedin"></i></a>
+                    </article>
+                </aside>
             </Col>
-            <Col className='col-12 col-md-6'>
+            <Col className='col-12 col-md-6' data-aos="fade-up">
                 {isSent && <p className="text-success">¡Mensaje enviado con éxito!</p>}
                 {error && <p className="text-danger">{error}</p>}
                     <form onSubmit={handleSubmit}>
