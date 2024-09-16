@@ -63,7 +63,7 @@ if (!validateEmail(formData.mail)) {
     <section className="main-form-content">
         <Row className="contact-form">
             <Col className='col-12 col-md-6'>
-            <aside data-aos="fade-right">
+            <aside data-aos="fade-right" className='me-md-5'>
                     <h1>Let's talk</h1>
                     <div className="name mt-0 mb-0">If you have any questions, just fill the contact form or send me an email, and I will answer you shortly.</div>
                     <article className='article-content'>
