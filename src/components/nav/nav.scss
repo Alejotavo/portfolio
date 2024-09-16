@@ -102,17 +102,17 @@
            font-size: 1.25rem;
         }  
     }
-
-    .navbar-toggler:focus{
-        box-shadow: none;
-    }
-
-
-    
     .no-scroll {
         overflow: hidden;
       }
 }
+
+
+.navbar-toggler:focus{
+    box-shadow: 0px;
+}
+
+
 
 @keyframes rotateIcon {
     from {
