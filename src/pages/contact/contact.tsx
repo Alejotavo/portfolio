@@ -74,8 +74,15 @@ if (!validateEmail(formData.mail)) {
                 </aside>
             </Col>
             <Col className='col-12 col-md-6' data-aos="fade-up">
-                {isSent && <p className="text-success">¡Mensaje enviado con éxito!</p>}
-                {error && <p className="text-danger">{error}</p>}
+            {isSent ? (
+                    <div className="alert alert-success" role="alert">
+                    A simple danger alert—check it out!
+                  </div>
+                    ) : error && (
+                        <div className="alert alert-danger" role="alert">
+                        {error}
+                      </div>
+                    )}
                     <form onSubmit={handleSubmit}>
                         <div className="form-group">
                         <label htmlFor="name">Name:</label>
