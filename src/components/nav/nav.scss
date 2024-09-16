@@ -1,5 +1,11 @@
 
 // Estilos básicos de la barra de navegación
+
+.navbar-toggler:focus {
+    box-shadow:none!important;
+}
+
+
 .nav {
     font-weight: 600;
     transition: background-color 0.3s ease; // Transición suave para el color de fondo
@@ -27,10 +33,10 @@
     }
 }
 
+
 .fullscreen-menu{
     display: none;
 }
-
 
 @media (max-width: 768px) {
 
