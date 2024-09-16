@@ -4,6 +4,7 @@ import emailjs from 'emailjs-com';
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
+    mail: '',
     comment: ''
   });
   const [isSent, setIsSent] = useState(false);
@@ -12,7 +13,7 @@ const ContactForm = () => {
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     });
   };
 
@@ -21,7 +22,8 @@ const ContactForm = () => {
 
     const templateParams = {
         to_name: 'Alejo',           // Nombre fijo del destinatario
-        from_name: formData.name,    // Nombre tomado del campo de formulario
+        from_name: formData.name,  // Nombre tomado del campo de formulario
+        from_email: formData.mail,  
         message: formData.comment,   // Comentario tomado del campo de formulario
       };
 
@@ -31,7 +33,7 @@ const ContactForm = () => {
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         setIsSent(true); // Mostrar mensaje de éxito
-        setFormData({ name: '', comment: '' }); // Limpiar el formulario
+        setFormData({ name: '', mail: '', comment: '' }); // Limpiar el formulario
       })
       .catch((error) => {
         console.error('FAILED...', error);
@@ -52,6 +54,18 @@ const ContactForm = () => {
             id="name"
             name="name"
             value={formData.name}
+            onChange={handleChange}
+            className="form-control"
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label htmlFor="name">Mail:</label>
+          <input
+            type="text"
+            id="mail"
+            name="mail"
+            value={formData.mail}
             onChange={handleChange}
             className="form-control"
             required
