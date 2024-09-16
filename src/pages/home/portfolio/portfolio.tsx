@@ -21,8 +21,8 @@ function Portfolio() {
             <Row className="custom-row">
                <Col xs={12} xl={6} className="row ms-0">
                 <label className="skyblue-subtitle">MY PORTFOLIO</label>
-                <h3 className="white-subtitle">Take a look to some of my Projects</h3>
-                <p className="mb-4 mb-lg-5">At any rate, Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque amet planning</p>
+                <h3 className="white-subtitle">Case Studies</h3>
+                <p className="mb-4 mb-lg-5">These are the projects I've been actively involved in.</p>
                </Col>
                 <Col  xs={12}>
                     <Row className="custom-row">
