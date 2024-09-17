@@ -11,7 +11,7 @@
             "images/projects/sanLorenzo/g.png"
         ],
         "title": "San Lorenzo",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "description": "I developed a website for the San Lorenzo football club, where I was responsible for the user experience (UX), design, and implementation. I ensured that the interface was intuitive and visually appealing, providing an optimal experience for users while representing the club's identity in an impactful way.",
         "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
     },
     {
@@ -26,7 +26,7 @@
                 "images/projects/bestDay/g.jpg"
                 ],
         "title": "Best Day",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
+        "description": "Best Day is an online platform dedicated to booking travel services. I was responsible for the design and development of the Best Day website. \nMy role included creating a user-friendly interface and implementing the necessary functionality to ensure a seamless user experience, from browsing travel options to completing bookings.",
         "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
     },
     {
@@ -38,7 +38,7 @@
             "images/projects/hicx/d.png"
         ],
         "title": "HICX Solutions",
-        "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers.",
+        "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers. I was responsible for the user experience (UX) and screen design at HICX Solutions. \nMy work focused on optimizing user interaction with the platform, ensuring that the design was intuitive and functional, tailored to the specific needs of the company's users.",
         "technologies":["Vue.js", "ANT Design", "Figma"]
     },
     {
