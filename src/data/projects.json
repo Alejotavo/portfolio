@@ -37,9 +37,9 @@
             "images/projects/hicx/c.png",
             "images/projects/hicx/d.png"
         ],
-        "title": "Best Day",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed.",
-        "technologies":["React", "Tailwind", "Figma"]
+        "title": "HICX Solutions",
+        "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers.",
+        "technologies":["Vue.js", "ANT Design", "Figma"]
     },
     {
         "id": 4, 
