@@ -40,41 +40,5 @@
         "title": "HICX Solutions",
         "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers. I was responsible for the user experience (UX) and screen design at HICX Solutions. \nMy work focused on optimizing user interaction with the platform, ensuring that the design was intuitive and functional, tailored to the specific needs of the company's users.",
         "technologies":["Vue.js", "ANT Design", "Figma"]
-    },
-    {
-        "id": 4, 
-        "img": "images/4.png",
-        "thumbs": [
-            "images/1.png",
-            "images/1.png",
-            "images/1.png"
-        ],
-        "title": "Hixc Solution",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
-        "technologies":["React", "Tailwind", "Figma"]
-    },
-    {
-        "id": 5, 
-        "img": "images/5.png",
-        "thumbs": [
-            "images/1.png",
-            "images/1.png",
-            "images/1.png"
-        ],
-        "title": "Kodacon",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
-        "technologies":["React", "Tailwind", "Figma"]
-    },
-    {
-        "id": 6, 
-        "img": "images/6.png",
-        "thumbs": [
-            "images/1.png",
-            "images/1.png",
-            "images/1.png"
-        ],
-        "title": "Binagora",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        "technologies":["React", "Tailwind", "Figma"]
     }
 ]
