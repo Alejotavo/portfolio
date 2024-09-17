@@ -64,7 +64,7 @@ function NavBar() {
         <>
             <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
                 <Container className="nav-container">
-                    <Navbar.Brand href="#home"><Logo /></Navbar.Brand>
+                    <Navbar.Brand href="#home"><Logo/><label className='iso-logo'>Design & Code</label></Navbar.Brand>
     
                     <Navbar.Toggle 
                         aria-controls="basic-navbar-nav" 

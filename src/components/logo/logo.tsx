@@ -4,7 +4,7 @@ import "./logo.scss"
 function Logo() {
     return (
     <>
-        <svg width="49" height="53" viewBox="0 0 49 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg width="40" height="auto" viewBox="0 0 49 53" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M14.6614 12.9252L22.1851 0L29.9016 12.1535L22.1851 25.6575L14.6614 12.9252Z" fill="#6EB6F4"/>
             <path d="M14.6614 12.9252L7.13779 26.2362L14.8543 38.9685L22.185 25.6575L14.6614 12.9252Z" fill="#2592E4"/>
             <path d="M0 38.9685L7.1378 26.2362L14.8543 38.9685H0Z" fill="#1A70BB"/>

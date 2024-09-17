@@ -6,39 +6,51 @@
 }
 
 
-.nav {
-    font-weight: 600;
-    transition: background-color 0.3s ease; // Transición suave para el color de fondo
-    background-color: none;
+.nav-container{
+    .iso-logo{
+        color: #3A3A3A;
+        font-size: 1rem;
+        font-weight: 600;
+    }
 
-    .nav-link:last-child {
-        color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
-        }
+    .nav {
+        font-weight: 600;
+        transition: background-color 0.3s ease; // Transición suave para el color de fondo
+        background-color: none;
 
-    &.scrolled {
-        background-color: rgba(0, 0, 0, 0.5); // Cambia este color al que desees cuando se haga scroll
-        color: rgb(255, 255, 255); // Cambia el color del texto según el fondo
+        .nav-link:last-child {
+            color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
+            }
 
-        .nav-link {
-        color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
+        &.scrolled {
+            background-color: rgba(0, 0, 0, 0.5); // Cambia este color al que desees cuando se haga scroll
+            color: rgb(255, 255, 255); // Cambia el color del texto según el fondo
+
+            .nav-link {
+            color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
+            }
+
+            .navbar-nav .nav-link.active{
+                color: #ffffff;
+            }
         }
 
         .navbar-nav .nav-link.active{
-            color: #ffffff;
+            color: #000;
         }
     }
-
-    .navbar-nav .nav-link.active{
-        color: #000;
-    }
 }
-
 
 .fullscreen-menu{
     display: none;
 }
 
 @media (max-width: 768px) {
+
+    .iso-logo{
+       display: none;
+    }
+
 
     .nav {
        
