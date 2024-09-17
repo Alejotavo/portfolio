@@ -31,11 +31,11 @@
     },
     {
         "id": 3, 
-        "img": "images/3.png",
+        "img": "images/projects/hicx/a.jpg",
         "thumbs": [
-            "images/1.png",
-            "images/1.png",
-            "images/1.png"
+            "images/projects/hicx/b.png",
+            "images/projects/hicx/c.png",
+            "images/projects/hicx/d.png"
         ],
         "title": "Best Day",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed.",
