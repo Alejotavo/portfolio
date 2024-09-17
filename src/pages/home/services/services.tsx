@@ -21,7 +21,7 @@ function Services() {
                <Col xs={12} xl={6} className="row ms-0">
                 <label className="skyblue-subtitle">MY SERVICES</label>
                 <h3 className="white-subtitle">What I Do?</h3>
-                <p className="mb-4 mb-lg-5">I offer UI/UX design and Front-End development services, creating engaging and functional digital experiences.</p>
+                <p className="mb-4 mb-lg-5">I provide UI/UX design and Front-End development services, to create engaging and functional digital experiences.</p>
                </Col>
                 <Col  xs={12}>
                     <Row className="custom-row">

@@ -12,7 +12,7 @@ function MainHeader() {
                     <label className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</label>
                     <label className="ui-ux mt-1 mb-3">UI-UX & FRONT END DEVELOPER</label>
                     <p>
-                        Specializing in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
+                        I specialize in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
                     </p>
                 </aside>
             </Col>
