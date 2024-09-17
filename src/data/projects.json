@@ -1,27 +1,33 @@
 [
     {
         "id": 1, 
-        "img": "images/hiveready_pic01.png",
+        "img": "images/projects/sanLorenzo/a.png",
         "thumbs": [
-            "images/2.png",
-            "images/hiveready_pic01.png",
-            "images/4.png"
+            "images/projects/sanLorenzo/b.png",
+            "images/projects/sanLorenzo/c.png",
+            "images/projects/sanLorenzo/d.png",
+            "images/projects/sanLorenzo/e.png",
+            "images/projects/sanLorenzo/f.png",
+            "images/projects/sanLorenzo/g.png"
         ],
-        "title": "Binagora",
+        "title": "San Lorenzo",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
-        "technologies":["React", "Tailwind", "Figma"]
+        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
     },
     {
         "id": 2, 
-        "img": "images/2.png",
+        "img": "images/projects/bestDay/a.jpg",
         "thumbs": [
-            "images/1.png",
-            "images/1.png",
-            "images/1.png"
+                "images/projects/bestDay/b.jpg",
+                "images/projects/bestDay/c.jpg",
+                "images/projects/bestDay/d.jpg",
+                "images/projects/bestDay/e.jpg",
+                "images/projects/bestDay/f.jpg",
+                "images/projects/bestDay/g.jpg"
                 ],
-        "title": "Huddle Group",
+        "title": "Best Day",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium massa felis, at consectetur justo tempor sed. Duis rhoncus orci pretium, ullamcorper dui non, facilisis enim.",
-        "technologies":["React", "Tailwind", "Figma"]
+        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
     },
     {
         "id": 3, 
