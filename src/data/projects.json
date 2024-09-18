@@ -38,7 +38,7 @@
             "images/projects/hicx/d.png"
         ],
         "title": "HICX Solutions",
-        "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers. I was responsible for the user experience (UX) and screen design at HICX Solutions. \nMy work focused on optimizing user interaction with the platform, ensuring that the design was intuitive and functional, tailored to the specific needs of the company's users.",
+        "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers.",
         "technologies":["Vue.js", "ANT Design", "Figma"]
     }
 ]
