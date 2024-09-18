@@ -21,7 +21,7 @@ function NavBar() {
         const handleScroll = () => {
             const nav = document.querySelector('.nav');
             if (nav) {
-                if (window.scrollY > 50) {
+                if (window.scrollY > 100) {
                     nav.classList.add('scrolled');
                     console.log('Scrolled: added .scrolled');
                 } else {
@@ -64,7 +64,7 @@ function NavBar() {
         <>
             <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
                 <Container className="nav-container">
-                    <Navbar.Brand href="#home"><Logo/><label className='iso-logo'>Design & Code</label></Navbar.Brand>
+                    <Navbar.Brand href="#home"><Logo/><label className='iso-logo'>Code & Design</label></Navbar.Brand>
     
                     <Navbar.Toggle 
                         aria-controls="basic-navbar-nav" 
