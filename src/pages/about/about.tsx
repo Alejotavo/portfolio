@@ -1,8 +1,23 @@
 import { Col, Row } from "react-bootstrap";
 import profile from '../../../public/images/perfil2_pic.png'; // Importa la imagen
 import "./about.scss"
+import Timeline from "../../components/timeline/timeline";
+import timelineData from "../../data/timeline.json";
+import {Event} from "../../models/timeline"
+import { useEffect, useState } from "react";
+
+
+
 
 function About() {
+
+    const [timeline, setTimeline] = useState<Event[]>([])
+
+    useEffect( () => {
+     setTimeline(timelineData);
+    }, []);
+
+
     return (
     <section  className="main-about-content d-flex  justify-content-center">
         <Row  className="m-0">
@@ -21,6 +36,9 @@ function About() {
                     With a keen eye for detail, I continuously strive to improve my skills and stay updated on the latest design and technology trends, ensuring that every project is modern and effective.
                     </p>
                 </aside>
+                <section data-aos="fade-left">
+                        <Timeline timeline={timeline}/>
+                </section>
             </Col>
         </Row>
     </section>
