@@ -3,24 +3,28 @@
         "id": 1,
         "date": "2021 -2024",
         "company": "Binagora",
+        "mode":"CONTRACTOR",
         "description":"Lorem Ipsum segoe merdasjs.Luirtrwe Loretus chorchu."
     },
     {
         "id": 2,
         "date": "2019 - 2021",
         "company": "HICX",
+        "mode":"CONTRACTOR",
         "description":"I was responsible for the user experience (UX) and screen design at HICX Solutions. My work focused on optimizing user interaction with the platform, ensuring that the design was intuitive and functional, tailored to the specific needs of the company's users."
     },
     {
         "id": 3,
         "date": "2018 - 2019",
         "company": "Deloitte",
+        "mode":"CONTRACTOR",
         "description":"Worked on a product named ATAshphere to manage and migrate and protect an any- to-any combination of on-premises, hypervisors, private clouds and public clouds. ATAsphere, can run as a unified, end-to-end solution or as a module that could integrate with your existing transformation initiative and technologies."
     },
     {
         "id": 4,
         "date": "2013 - 2018",
         "company": "Huddle Group",
+        "mode":"EMPLOYMENT RELATIONSHIP",
         "description":"Worked with several U.S.-based clients, including Rockstar Games, FOX, Best Day, and CITI-BANK. In these projects, I was responsible for developing the user experience, designing the interface, and handling the front-end development."
     }
 ] 
