@@ -1,8 +1,8 @@
 .project-card-body{
     overflow: hidden;
     display: flex;
-    align-items: center;
     justify-content: center; 
+    height: 100%; /* Asegúrate de que el contenedor tenga una altura definida */
     img{
         max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
         max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */

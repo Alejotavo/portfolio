@@ -17,7 +17,7 @@ function Portfolio() {
     }, []);
 
     return (
-        <Container id="section4" fluid className="custom-container">
+        <Container id="section4" fluid className="portfolio-custom-container">
             <Row className="custom-row">
                <Col xs={12} xl={6} className="row ms-0">
                 <label className="skyblue-subtitle">MY PORTFOLIO</label>
