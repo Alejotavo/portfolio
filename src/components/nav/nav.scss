@@ -5,13 +5,15 @@
     box-shadow:none!important;
 }
 
-
-
 .iso-logo{
     color: #3A3A3A;
     font-size: 1rem;
     font-weight: 600;
     margin-left: 0.5rem;
+}
+
+.z-index-custom{
+    z-index: 0!important;
 }
 
 .nav {
@@ -36,7 +38,6 @@
     }
 }
 
-
 .fullscreen-menu{
     display: none;
 }
@@ -47,9 +48,7 @@
        display: none;
     }
 
-
     .nav {
-       
         transition: background-color ; // Transición suave para el color de fondo
         position: static !important; /* Anula fixed-top */
         top: auto !important; /* Anula top: 0 */
@@ -125,7 +124,6 @@
 .navbar-toggler:focus{
     box-shadow: 0px;
 }
-
 
 
 @keyframes rotateIcon {

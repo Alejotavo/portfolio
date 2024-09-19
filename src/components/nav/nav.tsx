@@ -62,7 +62,7 @@ function NavBar() {
 
     return (
         <>
-            <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
+            <Navbar expand="lg" className="fixed-top nav z-index-custom" expanded={isExpanded}>
                 <Container className="nav-container">
                     <Navbar.Brand href="#home"><Logo/><label className='iso-logo'>Code & Design</label></Navbar.Brand>
     
