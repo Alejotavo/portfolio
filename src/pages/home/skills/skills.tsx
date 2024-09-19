@@ -4,10 +4,10 @@ import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import "./skills.scss"
 import Progress from "./progress";
-
+import skills from '../../../../public/images/skills_pic.png'
 import data from '../../../data/skills.json'
 import {Skill} from '../../../models/skill'
-import skills from '../../../assets/skills_pic.png'; // Importa la imagen
+
 
 function Skills() {
 
