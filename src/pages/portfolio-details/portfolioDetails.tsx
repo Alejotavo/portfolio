@@ -58,7 +58,7 @@ const PortfolioDetails: React.FC = () => {
 
     return (
         <section className="main-portfolio-details-content">
-            <Row className='m-0 mt-5 image-gallery'>
+            <Row className='m-0 image-gallery pt-md-5 pe-md-3 ps-md-3'>
             <Col className="col-12 col-md-3 order-1 order-md-2 mb-5">
                     <aside>
                         <h1>{project.title}</h1>
