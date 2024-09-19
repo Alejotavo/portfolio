@@ -59,7 +59,7 @@ const PortfolioDetails: React.FC = () => {
     return (
         <section className="main-portfolio-details-content">
             <Row className='m-0 mt-5 image-gallery'>
-            <Col className="col-12 col-md-3 order-1 order-md-2">
+            <Col className="col-12 col-md-3 order-1 order-md-2 mb-5">
                     <aside>
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
@@ -71,14 +71,14 @@ const PortfolioDetails: React.FC = () => {
                 </Col>
                 <Col  className="col-12 col-md-8 order-2 order-md-1">
                     <div>
-                        <Row className=' mb-4'>
+                        <Row className=' mb-2 mb-md-4'>
                             <Col>
                                 <img src={`/${project.img}`} alt={project.title} />
                             </Col>
                         </Row>
-                        <Row>
+                        <Row className='pb-5'>
                             {project.thumbs.map((thumb, index) => (
-                                <Col key={index} className="col-12 col-md-4 mb-2 mb-md-0">
+                                <Col key={index} className="col-12 col-md-4 mb-2 mb-md-0 mt-3 d-flex">
                                     <img
                                         src={`/${thumb}`}
                                         alt={`Thumbnail ${index}`}
