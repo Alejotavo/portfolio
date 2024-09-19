@@ -1,36 +1,21 @@
-[
-    {
-        "id": 1, 
-        "img": "images/projects/sanLorenzo/a.png",
-        "thumbs": [
-            "images/projects/sanLorenzo/b.png",
-            "images/projects/sanLorenzo/c.png",
-            "images/projects/sanLorenzo/d.png",
-            "images/projects/sanLorenzo/e.png",
-            "images/projects/sanLorenzo/f.png",
-            "images/projects/sanLorenzo/g.png"
-        ],
-        "title": "San Lorenzo",
-        "description": "I developed a website for the San Lorenzo football club, where I was responsible for the user experience (UX), design, and implementation. I ensured that the interface was intuitive and visually appealing, providing an optimal experience for users while representing the club's identity in an impactful way.",
-        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
+[    {
+    "id": 1, 
+    "img": "images/projects/binagora/a.png",
+    "thumbs": [
+        "images/projects/binagora/b.png",
+        "images/projects/binagora/a.png",
+        "images/projects/binagora/c.png",
+        "images/projects/binagora/d.png",
+        "images/projects/binagora/e.png",
+        "images/projects/binagora/f.png",
+        "images/projects/binagora/g.png"
+    ],
+    "title": "Binagora",
+    "description": "The hub that brings together all our internal tools in one intuitive and accessible platform. Designed to enhance your daily work experience, Jarvis is here to make your tasks simpler, quicker, and more efficient.",
+    "technologies":["React", "ANT Design", "Figma"]
     },
     {
         "id": 2, 
-        "img": "images/projects/bestDay/a.jpg",
-        "thumbs": [
-                "images/projects/bestDay/b.jpg",
-                "images/projects/bestDay/c.jpg",
-                "images/projects/bestDay/d.jpg",
-                "images/projects/bestDay/e.jpg",
-                "images/projects/bestDay/f.jpg",
-                "images/projects/bestDay/g.jpg"
-                ],
-        "title": "Best Day",
-        "description": "Best Day is an online platform dedicated to booking travel services. I was responsible for the design and development of the Best Day website. \nMy role included creating a user-friendly interface and implementing the necessary functionality to ensure a seamless user experience, from browsing travel options to completing bookings.",
-        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
-    },
-    {
-        "id": 3, 
         "img": "images/projects/hicx/a.jpg",
         "thumbs": [
             "images/projects/hicx/b.jpg",
@@ -45,19 +30,33 @@
         "technologies":["Vue.js", "ANT Design", "Figma"]
     },
     {
-        "id": 4, 
-        "img": "images/projects/binagora/a.png",
+        "id": 3, 
+        "img": "images/projects/bestDay/a.jpg",
         "thumbs": [
-            "images/projects/binagora/b.png",
-            "images/projects/binagora/a.png",
-            "images/projects/binagora/c.png",
-            "images/projects/binagora/d.png",
-            "images/projects/binagora/e.png",
-            "images/projects/binagora/f.png",
-            "images/projects/binagora/g.png"
+                "images/projects/bestDay/b.jpg",
+                "images/projects/bestDay/c.jpg",
+                "images/projects/bestDay/d.jpg",
+                "images/projects/bestDay/e.jpg",
+                "images/projects/bestDay/f.jpg",
+                "images/projects/bestDay/g.jpg"
+                ],
+        "title": "Best Day",
+        "description": "Best Day is an online platform dedicated to booking travel services. I was responsible for the design and development of the Best Day website. \nMy role included creating a user-friendly interface and implementing the necessary functionality to ensure a seamless user experience, from browsing travel options to completing bookings.",
+        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
+    },
+    {
+        "id": 4, 
+        "img": "images/projects/sanLorenzo/a.png",
+        "thumbs": [
+            "images/projects/sanLorenzo/b.png",
+            "images/projects/sanLorenzo/c.png",
+            "images/projects/sanLorenzo/d.png",
+            "images/projects/sanLorenzo/e.png",
+            "images/projects/sanLorenzo/f.png",
+            "images/projects/sanLorenzo/g.png"
         ],
-        "title": "Binagora",
-        "description": "The hub that brings together all our internal tools in one intuitive and accessible platform. Designed to enhance your daily work experience, Jarvis is here to make your tasks simpler, quicker, and more efficient.",
-        "technologies":["React", "ANT Design", "Figma"]
+        "title": "San Lorenzo",
+        "description": "I developed a website for the San Lorenzo football club, where I was responsible for the user experience (UX), design, and implementation. I ensured that the interface was intuitive and visually appealing, providing an optimal experience for users while representing the club's identity in an impactful way.",
+        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
     }
 ]
