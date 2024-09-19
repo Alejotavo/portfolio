@@ -37,7 +37,7 @@ if (!validateEmail(formData.mail)) {
 
 
     const templateParams = {
-        to_name: 'Alejo',           // Nombre fijo del destinatario
+        to_name: formData.name,           // Nombre fijo del destinatario
         from_name: formData.name,  // Nombre tomado del campo de formulario
         from_email: formData.mail,
         message: formData.comment,   // Comentario tomado del campo de formulario
