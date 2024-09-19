@@ -1,6 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;400;600;700&display=swap');
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
+body {
+  overflow-y: scroll; /* Permite el desplazamiento */
+}
+
+/* Oculta la barra de scroll en WebKit */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
 .main-wrapper{
   margin-top: 90px;
 }
