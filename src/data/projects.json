@@ -18,12 +18,15 @@
         "id": 2, 
         "img": "images/projects/hicx/a.jpg",
         "thumbs": [
-            "images/projects/hicx/b.jpg",
-            "images/projects/hicx/c.jpg",
-            "images/projects/hicx/d.jpg",
-            "images/projects/hicx/e.jpg",
-            "images/projects/hicx/f.jpg",
-            "images/projects/hicx/g.jpg"
+            "images/projects/hicx/h.jpg",
+            "images/projects/hicx/i.jpg",
+            "images/projects/hicx/l.jpg",
+            "images/projects/hicx/m.jpg",
+            "images/projects/hicx/p.jpg",
+            "images/projects/hicx/o.jpg",
+            "images/projects/hicx/j.jpg",
+            "images/projects/hicx/k.jpg"
+
         ],
         "title": "HICX Solutions",
         "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers.",
