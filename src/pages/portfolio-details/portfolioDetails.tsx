@@ -59,14 +59,14 @@ const PortfolioDetails: React.FC = () => {
     return (
         <section className="main-portfolio-details-content">
             <Row className='m-0 image-gallery pt-md-5 pe-md-3 ps-md-3'>
-            <Col className="col-12 col-md-3 order-1 order-md-2 mb-5">
+            <Col className="col-12 col-md-3 order-1 order-md-2 mb-4">
                     <aside>
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
                         {project.technologies.map((technologie) => (
                                 <span className="badge rounded-pill bg-info text-dark m-1">{technologie}</span>
                             ))}
-                        <Link to={'/portfolio'}>See all</Link>
+                        <Link className='btn btn-light btn-see-all mt-4' to={'/portfolio'}>See all</Link>
                     </aside>
                 </Col>
                 <Col  className="col-12 col-md-8 order-2 order-md-1">
