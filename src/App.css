@@ -3,6 +3,7 @@
 
 body {
   overflow-y: scroll; /* Permite el desplazamiento */
+  overflow-x: hidden;
 }
 
 /* Oculta la barra de scroll en WebKit */
