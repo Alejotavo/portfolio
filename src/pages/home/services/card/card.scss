@@ -14,7 +14,6 @@
               color: #ebebeb;
           }
 
-          /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
           @media (max-width: 767px) {
               .card-title {
               font-size: 20px;
@@ -33,7 +32,6 @@
       }
   }
 
-  /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
   @media (max-width: 767px) {
     .grey-subtitle {
       font-size: 35px;

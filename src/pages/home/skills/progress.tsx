@@ -8,18 +8,16 @@ interface ChildComponentProps {
 }
 
 const Progress = ({ skill }: ChildComponentProps) => {
-    // Estado para las barras de progreso animadas
+
     const [progressValues, setProgressValues] = useState<{ [key: number]: number }>({});
     
-    // Hook para detectar si el componente está en vista
     const { ref, inView } = useInView({
-        triggerOnce: true, // Solo ejecutar la animación una vez
-        threshold: 0.1, // El componente debe estar al menos al 10% visible
+        triggerOnce: true,
+        threshold: 0.1,
     });
 
     useEffect(() => {
         if (inView) {
-            // Función para animar el progreso
             const animateProgress = () => {
                 skill.forEach((x, index) => {
                     setProgressValues(prev => {
@@ -33,9 +31,7 @@ const Progress = ({ skill }: ChildComponentProps) => {
                 });
             };
 
-            const interval = setInterval(animateProgress, 20); // Ajusta el intervalo según tu necesidad
-
-            // Limpieza del intervalo cuando se completa la animación
+            const interval = setInterval(animateProgress, 20);
             const cleanup = () => clearInterval(interval);
             return cleanup;
         }

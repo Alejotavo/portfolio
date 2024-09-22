@@ -1,5 +1,5 @@
 import { Col, Row } from "react-bootstrap";
-import profile from '../../../../public/images/profile_pic.png'; // Importa la imagen
+import profile from '../../../../public/images/profile_pic.png';
 import "./mainHeader.scss"
 
 function MainHeader() {

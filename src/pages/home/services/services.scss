@@ -1,5 +1,3 @@
-
-
 .custom-container {
     background-color:#272727;
     display: flex;
@@ -16,15 +14,12 @@
     }
   }
 
-
-    /* Tamaño de fuente por defecto (escritorio) */
   .skyblue-subtitle{
       font-weight: 700;
       font-size: 20px;
       color: #33BBE5;
   }
   
-  /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
   @media (max-width: 767px) {
     
   .skyblue-subtitle {
@@ -32,8 +27,6 @@
     }
   }
 
-
-  /* Tamaño de fuente por defecto (escritorio) */
   .white-subtitle{
     font-weight: 700;
     font-size: 40px;
@@ -41,7 +34,6 @@
     color: #ebebeb;
 }
 
-/* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
 @media (max-width: 767px) {
   .grey-subtitle {
     font-size: 35px;

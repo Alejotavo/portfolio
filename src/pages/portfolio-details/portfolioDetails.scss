@@ -62,13 +62,12 @@
     }
 }
 
-/* Add styles for mobile devices */
-@media (max-width: 768px) { // Adjust the breakpoint as needed
+@media (max-width: 768px) {
     .thumbnail {
-        cursor: default; // Change cursor to default to indicate no action
+        cursor: default;
     }
 
     .lightbox {
-        display: none; // Ensure lightbox is not visible on mobile devices
+        display: none;
     }
 }

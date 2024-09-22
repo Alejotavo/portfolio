@@ -8,15 +8,13 @@ import About from "./pages/about/about";
 import NavBar from "./components/nav/nav";
 import Home from "./pages/home/home";
 
-import 'aos/dist/aos.css'; // Importa los estilos de AOS
-import AOS from 'aos'; // Importa AOS
+import 'aos/dist/aos.css';
+import AOS from 'aos';
 import MainPortfolioPage from "./pages/mainPortfolio/mainPortfolio";
 import Contact from "./pages/contact/contact";
 
-
-// Inicializa AOS
 AOS.init({
-  duration: 1000, // Duración de la animación en milisegundos
+  duration: 1000,
 });
 
 function App() {

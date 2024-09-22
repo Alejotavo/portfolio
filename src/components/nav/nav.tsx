@@ -9,7 +9,6 @@ function NavBar() {
     const [isExpanded, setIsExpanded] = useState(false);
     const [showFullscreenMenu, setShowFullscreenMenu] = useState(false);
 
-    // Colapsar el Navbar cuando un enlace es clicado en móvil
     const handleLinkClick = () => {
         if (window.innerWidth < 992) {
             setIsExpanded(false);
@@ -23,20 +22,16 @@ function NavBar() {
             if (nav) {
                 if (window.scrollY > 100) {
                     nav.classList.add('scrolled');
-                    console.log('Scrolled: added .scrolled');
                 } else {
                     nav.classList.remove('scrolled');
-                    console.log('Scrolled: removed .scrolled');
                 }
             }
         };
 
         window.addEventListener('scroll', handleScroll);
 
-        // Llamada inicial para aplicar el estilo correcto si la página ya ha sido desplazada
         handleScroll();
 
-        // Limpiar el event listener cuando el componente se desmonte
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
@@ -44,14 +39,13 @@ function NavBar() {
 
 
     useEffect(() => {
-        // Agregar la clase 'no-scroll' al body cuando el menú está abierto
+
         if (showFullscreenMenu) {
           document.body.classList.add('no-scroll');
         } else {
           document.body.classList.remove('no-scroll');
         }
     
-        // Limpiar la clase al desmontar el componente
         return () => {
           document.body.classList.remove('no-scroll');
         };

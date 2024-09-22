@@ -33,30 +33,22 @@ if (!validateEmail(formData.mail)) {
     return;
 }
 
-
-
-
-    const templateParams = {
-        to_name: formData.name,           // Nombre fijo del destinatario
-        from_name: formData.name,  // Nombre tomado del campo de formulario
-        from_email: formData.mail,
-        message: formData.comment,   // Comentario tomado del campo de formulario
-      };
-
-
-    // Envía el correo usando EmailJS
-    emailjs.send('service_kn7inos', 'template_6ei69za', templateParams, 'KUzmrelgd_OP_106w')
-      .then((response) => {
-        console.log('SUCCESS!', response.status, response.text);
-        setIsSent(true); // Mostrar mensaje de éxito
-        setFormData({ name: '', mail: '', comment: '' }); // Limpiar el formulario
-      })
-      .catch((error) => {
-        console.error('FAILED...', error);
-        setError('Error sending the message, please try again.');
-      });
+const templateParams = {
+    to_name: formData.name,
+    from_name: formData.name,
+    from_email: formData.mail,
+    message: formData.comment,
   };
 
+emailjs.send('service_kn7inos', 'template_6ei69za', templateParams, 'KUzmrelgd_OP_106w')
+  .then(() => {
+    setIsSent(true);
+    setFormData({ name: '', mail: '', comment: '' });
+    })
+    .catch(() => {
+      setError('Error sending the message, please try again.');
+    });
+  };
 
 
   return (

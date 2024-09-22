@@ -1,6 +1,4 @@
 
-// Estilos básicos de la barra de navegación
-
 .navbar-toggler:focus {
     box-shadow:none!important;
 }
@@ -14,15 +12,15 @@
 
 .nav {
     font-weight: 600;
-    transition: background-color 0.3s ease; // Transición suave para el color de fondo
+    transition: background-color 0.3s ease;
     background-color: none;
 
     .nav-link:last-child {
-        color: rgb(255, 255, 255); // Cambia el color de los enlaces según el fondo
+        color: rgb(255, 255, 255);
         }
 
     &.scrolled {
-        background-color: rgb(255, 255, 255); // Cambia este color al que desees cuando se haga scroll
+        background-color: rgb(255, 255, 255);
 
         .navbar-nav .nav-link.active{
             color: #ffffff;
@@ -45,15 +43,15 @@
     }
 
     .nav {
-        transition: background-color ; // Transición suave para el color de fondo
-        position: static !important; /* Anula fixed-top */
-        top: auto !important; /* Anula top: 0 */
+        transition: background-color ;
+        position: static !important;
+        top: auto !important;
         color: #ffffff;
         transition: none;
 
         &.scrolled {
-            background-color: #ffffff; // Cambia este color al que desees cuando se haga scroll
-            color: rgb(255, 255, 255); // Cambia el color del texto según el fondo
+            background-color: #ffffff;
+            color: rgb(255, 255, 255);
         }
 
         .navbar-toggler {
@@ -72,7 +70,7 @@
         color: #fff;
         display: none;
         justify-content: center;
-        z-index: 1050; /* Asegúrate de que esté encima de otros elementos */
+        z-index: 1050;
         transition: opacity 0.3s ease;
 
     }
@@ -116,11 +114,9 @@
       }
 }
 
-
 .navbar-toggler:focus{
     box-shadow: 0px;
 }
-
 
 @keyframes rotateIcon {
     from {
@@ -132,5 +128,5 @@
   }
   
   .rotate-360 {
-    animation: rotateIcon 0.5s linear; /* Cambia la duración y la repetición si es necesario */
+    animation: rotateIcon 0.5s linear;
   }

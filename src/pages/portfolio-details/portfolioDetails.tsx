@@ -1,25 +1,23 @@
 import { Link, useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
-import { Project } from './../../models/project'; // Ensure the path is correct
+import { Project } from './../../models/project';
 import { Col, Row } from 'react-bootstrap';
 import projectsData from '../../data/projects.json';
 import './portfolioDetails.scss';
 
 const PortfolioDetails: React.FC = () => {
-    const { id } = useParams<{ id: string }>(); // Get the 'id' parameter from the URL
+    const { id } = useParams<{ id: string }>();
     const [project, setProject] = useState<Project | null>(null);
-    const [selectedImage, setSelectedImage] = useState<string | null>(null); // State for the selected image
-    const [currentImageIndex, setCurrentImageIndex] = useState<number>(0); // Index of the currently displayed image
-    const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768); // Determine if it's mobile
+    const [selectedImage, setSelectedImage] = useState<string | null>(null);
+    const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
+    const [isMobile, setIsMobile] = useState<boolean>(window.innerWidth <= 768);
 
     useEffect(() => {
-        // Filter the imported data to find the project with the given ID
         const foundProject = projectsData.find((p: Project) => p.id === Number(id));
         setProject(foundProject || null);
     }, [id]);
 
     useEffect(() => {
-        // Update isMobile when window resizes
         const handleResize = () => setIsMobile(window.innerWidth <= 768);
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
@@ -92,7 +90,6 @@ const PortfolioDetails: React.FC = () => {
                 </Col>
             </Row>
 
-            {/* Full-screen lightbox modal */}
             {selectedImage && !isMobile && (
                 <div className="lightbox" onClick={closeImage}>
                     <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>

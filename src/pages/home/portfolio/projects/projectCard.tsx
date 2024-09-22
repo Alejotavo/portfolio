@@ -1,12 +1,12 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ChildComponentProps } from './../../../../models/project'; // Ensure correct path
+import { ChildComponentProps } from './../../../../models/project';
 import { Col } from 'react-bootstrap';
 import "./project.scss"
 
 const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
     const navigate = useNavigate();
-    // Define the function to handle clicks
+
     const handleClick = (id: number) => {
         navigate(`/portfolioDetails/${id}`);
     };
@@ -20,7 +20,7 @@ const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
                     md={4}
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
-                    data-aos-duration="500" // Adjusted to a numeric value
+                    data-aos-duration="500"
                     className="mt-3"
                 >
                     <div 
@@ -28,12 +28,11 @@ const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
                         onClick={() => handleClick(item.id)}
                         style={{ cursor: 'pointer' }}
                     >
-                            <img
-                                src={`/${item.img}`}
-                                alt={`Image ${item.id}`}
-                                style={{ width: '100%', height: 'auto' }} // Ensure image is responsive
-                            />
-
+                        <img
+                            src={`/${item.img}`}
+                            alt={`Image ${item.id}`}
+                            style={{ width: '100%', height: 'auto' }}
+                        />
                     </div>
                 </Col>
             ))}

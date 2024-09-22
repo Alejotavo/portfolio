@@ -7,8 +7,6 @@ import {Event} from "../../models/timeline"
 import { useEffect, useState } from "react";
 
 
-
-
 function About() {
 
     const [timeline, setTimeline] = useState<Event[]>([])

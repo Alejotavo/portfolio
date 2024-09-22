@@ -2,15 +2,13 @@
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 
 body {
-  overflow-y: scroll; /* Permite el desplazamiento */
+  overflow-y: scroll;
   overflow-x: hidden;
 }
 
-/* Oculta la barra de scroll en WebKit */
 body::-webkit-scrollbar {
   display: none;
 }
-
 
 .main-wrapper{
   margin-top: 90px;
@@ -32,8 +30,6 @@ body::-webkit-scrollbar {
   font-size: 64px;
   font-weight: 600;
 }
-
-/* Primary BTN */
 
 :root  .btn-portfolio-primary{
   border-radius: 50px;
@@ -57,7 +53,6 @@ body::-webkit-scrollbar {
   }
 
 }
-
 
 @media (max-width: 768px) {
 

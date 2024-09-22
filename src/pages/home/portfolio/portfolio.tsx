@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import './portfolio.scss'
-
 import {Project} from '../../../models/project'
 import data from './../../../data/projects.json'
 import ProjectCard from "./projects/projectCard";
-
 
 
 function Portfolio() {

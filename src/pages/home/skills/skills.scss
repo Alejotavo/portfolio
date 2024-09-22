@@ -41,20 +41,17 @@
     }
   }
 
+@media (max-width: 767px) {
 
-    /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
-    @media (max-width: 767px) {
-    
-        .skyblue-subtitle {
-            font-size: 14px;
-          }
-        }
-      
-      /* Tamaño de fuente en dispositivos móviles (pantallas menores a 768px) */
-      @media (max-width: 767px) {
-        .white-subtitle {
-          font-size: 35px;
-        }
+    .skyblue-subtitle {
+        font-size: 14px;
       }
+    }
+  
+@media (max-width: 767px) {
+    .white-subtitle {
+      font-size: 35px;
+    }
+  }
 
    

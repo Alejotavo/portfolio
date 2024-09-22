@@ -2,10 +2,10 @@
     overflow: hidden;
     display: flex;
     justify-content: center; 
-    height: 100%; /* Asegúrate de que el contenedor tenga una altura definida */
+    height: 100%;
     img{
-        max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
-        max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+        max-width: 100%;
+        max-height: 100%;
         object-fit: cover;
     }
 }
