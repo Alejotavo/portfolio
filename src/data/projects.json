@@ -22,7 +22,7 @@
         "images/projects/hiveready/c.png"
     ],
     "title": "HiveReady",
-    "description": "The hub that brings together all our internal tools in one intuitive and accessible platform. Designed to enhance your daily work experience, Jarvis is here to make your tasks simpler, quicker, and more efficient.",
+    "description": "HiveReady specializes in providing custom software solutions, leveraging the latest backend and frontend development technologies. With a personalized approach, they design and develop innovative tools tailored to each client's specific needs, ensuring efficiency and optimization in their processes.",
     "technologies":["React", "ANT Design", "Figma"]
     },
     {
