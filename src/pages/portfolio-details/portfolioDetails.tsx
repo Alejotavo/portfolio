@@ -95,7 +95,7 @@ const PortfolioDetails: React.FC = () => {
             {/* Full-screen lightbox modal */}
             {selectedImage && !isMobile && (
                 <div className="lightbox" onClick={closeImage}>
-                    <div className="lightbox-content">
+                    <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
                         <button className="arrow left-arrow" onClick={(e) => { e.stopPropagation(); prevImage(); }}>←</button>
                         <img src={selectedImage} alt="Full Screen" className="full-screen-image" />
                         <button className="arrow right-arrow" onClick={(e) => { e.stopPropagation(); nextImage(); }}>→</button>
