@@ -23,7 +23,7 @@
     ],
     "title": "HiveReady",
     "description": "HiveReady specializes in providing custom software solutions, leveraging the latest backend and frontend development technologies. With a personalized approach, they design and develop innovative tools tailored to each client's specific needs, ensuring efficiency and optimization in their processes.",
-    "technologies":["React", "ANT Design", "Figma"]
+    "technologies":["React", "Tailwind", "Figma"]
     },
     {
         "id": 3, 
