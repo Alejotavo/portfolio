@@ -21,7 +21,7 @@ function About() {
         <Row  className="m-0">
             <Col className="col-12 col-md-6">
                 <div  className="col d-flex justify-content-center" data-aos="fade-up">
-                <img src={profile} alt="Profile" className="img-fluid flip-horizontal"  />
+                <img src={profile} alt="Alejo Gustavo Francomano" className="img-fluid flip-horizontal"  />
                 </div>
             </Col>
             <Col className="col-12 col-md-6">

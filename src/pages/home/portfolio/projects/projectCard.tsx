@@ -30,7 +30,7 @@ const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
                     >
                         <img
                             src={`/${item.img}`}
-                            alt={`Image ${item.id}`}
+                            alt={`Image ${item.description}`}
                             style={{ width: '100%', height: 'auto' }}
                         />
                     </div>
