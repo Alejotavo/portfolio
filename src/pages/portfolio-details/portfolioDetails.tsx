@@ -91,7 +91,8 @@ const PortfolioDetails: React.FC = () => {
             </Row>
 
             {selectedImage && !isMobile && (
-                <div className="lightbox" onClick={closeImage}>
+                <div className="lightbox">
+                    <button className='close-lightbox' onClick={closeImage}><i className="bi bi-x-lg"></i></button>
                     <div className="lightbox-content" onClick={(e) => e.stopPropagation()}>
                         <button className="arrow left-arrow" onClick={(e) => { e.stopPropagation(); prevImage(); }}>←</button>
                         <img src={selectedImage} alt="Portfolio Alejo Gustavo Francomano" className="full-screen-image" />

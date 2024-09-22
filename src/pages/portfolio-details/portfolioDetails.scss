@@ -58,6 +58,20 @@
             border-radius: 0px 5px 5px 0px;
             border: none;
         }
+
+        .close-lightbox{
+            top: 0px;
+            right: 0px;
+            position: absolute;
+            margin: 1.5rem;
+            background: none;
+            border: none;
+
+            i{
+                color: #959595;
+                font-size: 2.5rem;
+            }
+        }
     }
 }
 
