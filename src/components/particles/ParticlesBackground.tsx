@@ -8,7 +8,7 @@ const ParticlesBackground: React.FC = () => {
     });
   }, []);
 
-  return <div id="particles-js" style={{ position: 'absolute', width: '100%', height: '90%' }} />;
+  return <div id="particles-js" style={{ position: 'absolute', width: '100%', height: '100vh' }} />;
 };
 
 export default ParticlesBackground;
