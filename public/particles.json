@@ -31,13 +31,13 @@
         "anim": {
           "enable": true,
           "speed": 1,
-          "opacity_min": 0.3,
+          "opacity_min": 0.5,
           "sync": false
         }
       },
       "size": {
-        "value": 4,
-        "random": true,
+        "value": 3,
+        "random": false,
         "anim": {
           "enable": true,
           "speed": 2,
@@ -49,7 +49,7 @@
         "enable": true,
         "distance": 110,
         "color": "#000",
-        "opacity": 0.5,
+        "opacity": 0.1,
         "width": 1
       },
       "move": {
