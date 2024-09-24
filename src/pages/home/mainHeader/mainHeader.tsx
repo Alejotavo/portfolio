@@ -1,11 +1,15 @@
 import { Col, Row } from "react-bootstrap";
 import profile from '../../../../public/images/profile_pic.png';
 import "./mainHeader.scss"
+import ParticlesBackground from "../../../components/particles/ParticlesBackground";
 
 function MainHeader() {
     return (
     <section  className="main-header-content">
         <Row  className="m-0">
+            <div className="particles-content">
+             <ParticlesBackground />
+            </div>
             <Col className="col-12 col-md-6">
                 <aside data-aos="fade-right" className="custom-padding ">
                     <h1 className="mb-5">Welcome to my <b>Portfolio</b></h1>

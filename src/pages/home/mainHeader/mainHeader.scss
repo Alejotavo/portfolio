@@ -1,6 +1,13 @@
 .main-header-content{
     width: 1320px;
 
+    .particles-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+
     aside{
         padding: 200px 0px 0px 130px;
 
