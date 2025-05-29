@@ -1,9 +1,9 @@
-[
-    {
-        "id": 1, 
-        "icon": "bi-code-slash", 
-        "title": "Web Development", 
-        "description": "Focus on front-end development, building visually appealing and responsive websites that ensure smooth user interactions with the latest web technologies."
+[   
+     {
+        "id": 13, 
+        "icon": "bi-layout-text-window", 
+        "title": "UX & Prototyping", 
+        "description": "Expert in UX design and prototyping, creating user-centered experiences through comprehensive research and interactive mockups."
     },
     {
         "id": 2, 
@@ -13,8 +13,8 @@
     },
     {
         "id": 3, 
-        "icon": "bi-layout-text-window", 
-        "title": "UX & Prototyping", 
-        "description": "Expert in UX design and prototyping, creating user-centered experiences through comprehensive research and interactive mockups."
+        "icon": "bi-code-slash", 
+        "title": "Web Development", 
+        "description": "Focus on front-end development, building visually appealing and responsive websites that ensure smooth user interactions with the latest web technologies."
     }
 ]
