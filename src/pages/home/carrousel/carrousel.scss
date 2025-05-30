@@ -1,0 +1,14 @@
+.carrousel{
+position: relative;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        margin: 0px;
+        li{
+            list-style: none;
+            margin: 0.8rem 1rem;
+        }
+    }
+}
