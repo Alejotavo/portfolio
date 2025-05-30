@@ -1,6 +1,10 @@
 .carrousel{
 position: relative;
 
+.carrousel-content{
+    max-width: 1320px;
+    margin: auto;
+}
     ul{
         display: flex;
         justify-content: center;

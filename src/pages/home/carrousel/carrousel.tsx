@@ -9,9 +9,9 @@ function Carrousel() {
 
 
     return (
-        <Container id="section4" fluid className="carrousel">
+        <Container fluid className="carrousel">
             <Row>
-               <Col>
+               <Col className="carrousel-content">
                <Marquee>
                     <ul>
                         <li><img src="./images/carrousel/logo1.png"></img></li>
