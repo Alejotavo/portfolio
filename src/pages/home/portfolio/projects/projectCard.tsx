@@ -21,8 +21,9 @@ const ProjectCard: React.FC<ChildComponentProps> = ({ project }) => {
                     data-aos="fade-up"
                     data-aos-delay={index * 100}
                     data-aos-duration="500"
-                    className="mt-3"
+                    className="mt-3 mb-5"
                 >
+                    <h6  className="project-card-title">{item.title}</h6>
                     <div 
                         className="project-card-body mt-1 mb-1" 
                         onClick={() => handleClick(item.id)}
