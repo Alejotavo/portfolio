@@ -1,4 +1,4 @@
-import { Col, Row } from "react-bootstrap";
+import { Col, Nav, Row } from "react-bootstrap";
 import profile from '../../../../public/images/profile_pic.png';
 import "./mainHeader.scss"
 import ParticlesBackground from "../../../components/particles/ParticlesBackground";
@@ -18,6 +18,9 @@ function MainHeader() {
                     <p>
                         I specialize in creating intuitive and visually appealing interfaces that enhance user experience. If you're looking for innovative and effective solutions for your digital projects, I'm here to help!
                     </p>
+                    <Nav>
+                        <Nav.Link href="/portfolio" className="portfolio-link"><button>Portfolio</button></Nav.Link>
+                    </Nav>
                 </aside>
             </Col>
             <Col className="col-12 col-md-6">
