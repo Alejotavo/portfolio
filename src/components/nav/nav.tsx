@@ -58,7 +58,11 @@ function NavBar() {
         <>
             <Navbar expand="lg" className="fixed-top nav" expanded={isExpanded}>
                 <Container className="nav-container">
-                    <Navbar.Brand><Logo/><label className='iso-logo'>Code & Design</label></Navbar.Brand>
+                    <Navbar.Brand className="d-flex align-items-center">
+                        <Nav.Link href="/home" className="d-flex align-items-center" onClick={handleLinkClick}>
+                        <Logo/>
+                        </Nav.Link>
+                        <label className='iso-logo'>Code & Design</label></Navbar.Brand>
     
                     <Navbar.Toggle 
                         aria-controls="basic-navbar-nav" 

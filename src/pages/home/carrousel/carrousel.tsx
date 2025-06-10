@@ -23,6 +23,7 @@ function Carrousel() {
                         <li><img src="./images/carrousel/logo7.png"></img></li>
                         <li><img src="./images/carrousel/logo8.png"></img></li>
                         <li><img src="./images/carrousel/logo9.png"></img></li>
+                        <li><img src="./images/carrousel/logo10.png"></img></li>
                     </ul>
                 </Marquee>
                </Col>
