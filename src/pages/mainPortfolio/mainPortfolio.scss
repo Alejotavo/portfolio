@@ -13,3 +13,11 @@
       color: #b9b9b9;
     }
   }
+
+  @media (max-width: 768px) {
+
+    .portfolio-custom-container {
+      padding-top: 3rem;
+    }
+    
+  }
