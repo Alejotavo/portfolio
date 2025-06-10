@@ -1,18 +1,25 @@
 .carrousel{
 position: relative;
+background: #f9f9fb;
 
 .carrousel-content{
     max-width: 1320px;
     margin: auto;
+    padding: 0px;
 }
     ul{
         display: flex;
         justify-content: center;
-        background-color: rgb(255, 255, 255);
+        background: #f9f9fb;
         margin: 0px;
+        padding: 0px;
         li{
             list-style: none;
             margin: 0.8rem 1rem;
+
+            img{
+                width: 150px;
+            }
         }
     }
 }
