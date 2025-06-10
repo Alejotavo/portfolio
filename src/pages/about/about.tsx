@@ -29,10 +29,23 @@ function About() {
                     <h1 className="mb-5">Find out more about me</h1>
                     <div className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</div>
                     <label className="ui-ux mt-1 mb-3 fw-bold">UI-UX & FRONT END DEVELOPER</label>
-                    <p>
-                    I am a Front-End Developer with a focus on UI/UX, passionate about creating intuitive and visually engaging digital experiences. My work sits at the crossroads of design and functionality, using technologies like React and frameworks such as Bootstrap to develop responsive and optimized interfaces. I enjoy collaborating with multidisciplinary teams to solve complex problems creatively, always keeping the user at the center of the development process.
-                    With a keen eye for detail, I continuously strive to improve my skills and stay updated on the latest design and technology trends, ensuring that every project is modern and effective.
-                    </p>
+                   <ul>
+                        <li className=" mb-3">
+                            Front-End Developer specialized in UI/UX design, passionate about crafting intuitive and visually compelling digital experiences.
+                        </li>
+                        <li className=" mb-3">
+                            Skilled in combining design principles with functional development to create seamless user interfaces.
+                        </li>
+                        <li className=" mb-3">
+                            Proficient in React, Ant Design, Tailwind and Bootstrap, focusing on building responsive, performant, and optimized web applications.
+                        </li>
+                        <li className=" mb-3">
+                            Experienced working collaboratively within multidisciplinary teams to tackle complex challenges with creative solutions.
+                        </li>
+                        <li className=" mb-3">
+                            Strong user-centered approach, ensuring that all development decisions prioritize usability and user satisfaction.
+                        </li>
+                   </ul>
                 </aside>
                 <section data-aos="fade-left">
                         <Timeline timeline={timeline}/>
