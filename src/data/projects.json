@@ -12,7 +12,7 @@
     ],
     "title": "Binagora",
     "description": "The hub that brings together all our internal tools in one intuitive and accessible platform. Designed to enhance your daily work experience, Jarvis is here to make your tasks simpler, quicker, and more efficient.",
-    "technologies":["React", "ANT Design", "Figma"]
+    "technologies":["React", "JavaScript", "ANT Design", "Figma"]
     },
     {"id": 2, 
     "img": "images/projects/hiveready/a.png",
@@ -23,7 +23,7 @@
     ],
     "title": "HiveReady",
     "description": "HiveReady specializes in providing custom software solutions, leveraging the latest backend and frontend development technologies. With a personalized approach, they design and develop innovative tools tailored to each client's specific needs, ensuring efficiency and optimization in their processes.",
-    "technologies":["React", "Tailwind", "Figma"]
+    "technologies":["React", "JavaScript", "Tailwind", "Figma"]
     },
     {
         "id": 3, 
@@ -41,7 +41,7 @@
         ],
         "title": "HICX Solutions",
         "description": "HICX supplier management solutions help some of the largest companies in the world to build productive working relationships with all their suppliers.",
-        "technologies":["Vue.js", "ANT Design", "Figma"]
+        "technologies":["Vue", "JavaScript", "ANT Design", "Figma"]
     },
     {
         "id": 4, 
@@ -56,7 +56,7 @@
                 ],
         "title": "Best Day",
         "description": "Best Day is an online platform dedicated to booking travel services. I was responsible for the design and development of the Best Day website. \nMy role included creating a user-friendly interface and implementing the necessary functionality to ensure a seamless user experience, from browsing travel options to completing bookings.",
-        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
+        "technologies":["Angular", "JavaScript",  "Bootstrap", "Illustrator", "Photoshop"]
     },
     {
         "id": 5, 
@@ -71,6 +71,6 @@
         ],
         "title": "San Lorenzo",
         "description": "I developed a website for the San Lorenzo football club, where I was responsible for the user experience (UX), design, and implementation. I ensured that the interface was intuitive and visually appealing, providing an optimal experience for users while representing the club's identity in an impactful way.",
-        "technologies":["Angular", "Bootstrap", "Illustrator", "Photoshop"]
+        "technologies":["Angular", "JavaScript", "Bootstrap", "Illustrator", "Photoshop"]
     }
 ]

@@ -4,6 +4,7 @@ import { Project } from './../../models/project';
 import { Col, Row } from 'react-bootstrap';
 import projectsData from '../../data/projects.json';
 import './portfolioDetails.scss';
+import Chip from '../../components/chip/chip';
 
 const PortfolioDetails: React.FC = () => {
     const { id } = useParams<{ id: string }>();
@@ -62,7 +63,7 @@ const PortfolioDetails: React.FC = () => {
                         <h1>{project.title}</h1>
                         <p>{project.description}</p>
                         {project.technologies.map((technologie) => (
-                                <span className="badge rounded-pill bg-info text-dark m-1">{technologie}</span>
+                                <Chip key={technologie} name={technologie} />
                             ))}
                         <Link className='btn btn-light btn-see-all mt-4' to={'/portfolio'}>See all</Link>
                     </aside>
