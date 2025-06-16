@@ -54,6 +54,18 @@ body::-webkit-scrollbar {
 
 }
 
+:root .btn-portfolio-secondary-outlined{
+  border-radius: 50px;
+  background:none;
+  border: solid 3px #e533d6;
+  margin: 5px;
+
+  &:hover{
+    background-color: #e533d6;
+  }
+
+}
+
 @media (max-width: 768px) {
 
   .main-wrapper{

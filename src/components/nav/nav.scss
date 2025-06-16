@@ -13,6 +13,7 @@
     font-weight: 600;
     transition: background-color 0.3s ease;
     background-color: none;
+                letter-spacing: 0.1em;
 
     .nav-link:last-child {
         color: rgb(255, 255, 255);
@@ -90,7 +91,6 @@
             .btn-margin{
                 color: rgb(255, 255, 255);
                 padding: 1rem 0rem;
-                border-bottom: solid 1px #292929;
             }
        }
     }
