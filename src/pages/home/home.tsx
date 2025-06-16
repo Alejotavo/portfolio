@@ -4,6 +4,7 @@ import Services from "./services/services";
 import Skills from "./skills/skills";
 import Portfolio from "./portfolio/portfolio";
 import Carrousel from "./carrousel/carrousel";
+import TestimonialSlider from "./testimonial/testimonialSlider";
 
 function Home() {
     return (
@@ -22,6 +23,9 @@ function Home() {
           <Skills/>
         </section>
         <section>
+        <section>
+          <TestimonialSlider/>
+        </section>
           <Portfolio/>
         </section>
       </Container>
