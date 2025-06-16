@@ -5,4 +5,13 @@
     .flip-horizontal {
         transform: scaleX(-1);
     }
+
+    .resume-btn {
+    border: 1px solid #dee2e6;
+    transition: border 0.3s ease;
+
+    &:hover {
+        border: 1px solid #e533d6;
+    }
+    }
 }

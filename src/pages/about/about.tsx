@@ -27,6 +27,16 @@ function About() {
             <Col className="col-12 col-md-6">
                 <aside data-aos="fade-right" className=" mt-md-5 pt-md-5 pe-md-5 p-2">
                     <h1 className="mb-5">Find out more about me</h1>
+                        <a href="/Francomano-Alejo-Resume-2025.pdf" download>
+                            <button className="d-inline-flex align-items-center rounded-pill px-3 py-1 me-2 mb-2 bg-gradient-to-tl shadow-sm resume-btn">
+                                <img
+                                    src={`/images/download.svg`}
+                                    alt={'Alejo Gustavo Francomano Resume'}
+                                    style={{ width: '20px', height: '20px', marginRight: '8px' }}
+                                />
+                                Resume
+                            </button>
+                        </a>
                     <div className="name mt-0 mb-0">ALEJO GUSTAVO FRANCOMANO</div>
                     <label className="ui-ux mt-1 mb-3 fw-bold">UI-UX & FRONT END DEVELOPER</label>
                    <ul>
